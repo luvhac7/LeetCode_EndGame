@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -21,4 +22,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Math
+|  |
+| ------- |
+| [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
+## Greedy
+|  |
+| ------- |
+| [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
+## Sorting
+|  |
+| ------- |
+| [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
 <!---LeetCode Topics End-->
