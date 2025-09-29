@@ -34,4 +34,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
+## Linked List
+|  |
+| ------- |
+| [0061-rotate-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0061-rotate-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0061-rotate-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0061-rotate-list) |
 <!---LeetCode Topics End-->
