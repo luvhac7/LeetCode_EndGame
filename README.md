@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0018-4sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0018-4sum) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0274-h-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0274-h-index) |
 | [0275-h-index-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0275-h-index-ii) |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0018-4sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0018-4sum) |
 | [0274-h-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0274-h-index) |
 | [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
 ## Linked List
@@ -48,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0018-4sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0018-4sum) |
 | [0061-rotate-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0086-partition-list) |
 ## Hash Table
