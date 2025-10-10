@@ -1,15 +1,17 @@
 class Solution {
 public:
     int hIndex(vector<int>& c) {
-        int h=0,n=c.size(),i=0; 
+        int n=c.size();
+        int idx=0;
         for(int i=0;i<n;i++)
         {
-            int x=n-i;//i++;
-            if(c[i]>=x)
+            int p=n-i;
+            if(p<=c[i])
             {
-                h=x;break;
+                idx=p;
+                break;
             }
         }
-        return h;
+        return idx;
     }
 };
