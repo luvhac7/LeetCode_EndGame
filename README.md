@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0062-unique-paths) |
+| [0072-edit-distance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0072-edit-distance) |
 ## Combinatorics
 |  |
 | ------- |
@@ -95,4 +96,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0039-combination-sum) |
+## String
+|  |
+| ------- |
+| [0072-edit-distance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0072-edit-distance) |
 <!---LeetCode Topics End-->
