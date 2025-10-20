@@ -1,36 +1,34 @@
 class Solution {
 public:
-
-    vector<string> letterCombinations(string d) {
-        int n=d.size();
-        if(d.empty()) return {};
-        vector<string>maps={
+    vector<string> letterCombinations(string digits) {
+        queue<string>q;
+        vector<string>mp={
             "","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"
         };
+        q.push("");
         vector<string>ans;
-        string path;
-        function<void(int)>backtrack=[&](int idx)
+        while(!q.empty())
         {
-            if(idx==d.size())
+            string prefix=q.front();
+            q.pop();
+            if(prefix.size()==digits.size())
             {
-                ans.push_back(path);
-                return;
+                ans.push_back(prefix);
             }
-            string letter=maps[d[idx]-'0'];
-            for(char c:letter)
-            {
-                path.push_back(c);
-                backtrack(idx+1);
-                path.pop_back();
+            else{
+                int no=digits[prefix.length()]-'0';
+                if(no<2 || no>9)
+                {
+                    continue;
+                }
+                for(char i:mp[no])
+                {
+                    q.push(prefix+i);
+                }
 
             }
-        };/*
-        for(int i=0;i<n;i++)
-        {
-            
         }
-        */
-    backtrack(0);
-    return ans;
+        return ans;
+
     }
 };
