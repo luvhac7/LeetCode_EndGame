@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0031-next-permutation) |
 | [0039-combination-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0040-combination-sum-ii) |
+| [0088-merge-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
 | [0274-h-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0274-h-index) |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0018-4sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0018-4sum) |
+| [0088-merge-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0088-merge-sorted-array) |
 | [0274-h-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0274-h-index) |
 | [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -67,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0086-partition-list) |
+| [0088-merge-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0141-linked-list-cycle) |
 ## Hash Table
 |  |
