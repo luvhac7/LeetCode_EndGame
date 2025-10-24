@@ -1,16 +1,13 @@
 class Solution {
 public:
-    int removeDuplicates(vector<int>& a) {
-        int n = a.size();
-        if (n == 0) return 0;
+    int removeDuplicates(vector<int>& nums) {
+        set<int>ans;
+        for(int i:nums) ans.insert(i);
 
-        int idx = 0; // Unique elements ka index
-        for (int i = 1; i < n; i++) {
-            if (a[i] != a[idx]) {  // New unique element mila
-                idx++;
-                a[idx] = a[i]; // Move unique element forward
-            }
+        int k=0;
+        for(int i:ans){
+            nums[k++]=i;
         }
-        return idx + 1; // New length return karo
+        return k;
     }
 };
