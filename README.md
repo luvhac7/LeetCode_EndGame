@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 ## Design
 |  |
 | ------- |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
+| [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 ## Backtracking
 |  |
 | ------- |
@@ -141,14 +144,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
+| [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
+| [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
+| [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 ## Matrix
 |  |
 | ------- |
@@ -172,4 +178,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3676-smallest-number-with-all-set-bits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3676-smallest-number-with-all-set-bits) |
+## Graph
+|  |
+| ------- |
+| [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
+## Ordered Set
+|  |
+| ------- |
+| [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 <!---LeetCode Topics End-->
