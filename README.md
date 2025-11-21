@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0759-set-intersection-size-at-least-two](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0759-set-intersection-size-at-least-two) |
+| [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
 | [0940-fruit-into-baskets](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0940-fruit-into-baskets) |
 | [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
 | [1019-squares-of-a-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1019-squares-of-a-sorted-array) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
 ## Tree
 |  |
 | ------- |
@@ -140,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0062-unique-paths) |
 | [0072-edit-distance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0072-edit-distance) |
+| [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 ## Combinatorics
 |  |
@@ -257,4 +260,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0187-repeated-dna-sequences) |
+## Queue
+|  |
+| ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
 <!---LeetCode Topics End-->
