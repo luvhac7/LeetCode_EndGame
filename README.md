@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0189-rotate-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
+| [0209-minimum-size-subarray-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0209-minimum-size-subarray-sum) |
 | [0274-h-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0274-h-index) |
 | [0275-h-index-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0287-find-the-duplicate-number) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0209-minimum-size-subarray-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0209-minimum-size-subarray-sum) |
 | [0275-h-index-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0287-find-the-duplicate-number) |
 | [1046-max-consecutive-ones-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1046-max-consecutive-ones-iii) |
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0187-repeated-dna-sequences](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0187-repeated-dna-sequences) |
+| [0209-minimum-size-subarray-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0209-minimum-size-subarray-sum) |
 | [0567-permutation-in-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0567-permutation-in-string) |
 | [0940-fruit-into-baskets](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1046-max-consecutive-ones-iii) |
@@ -216,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0209-minimum-size-subarray-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1046-max-consecutive-ones-iii) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
