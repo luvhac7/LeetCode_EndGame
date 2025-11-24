@@ -1,15 +1,15 @@
 class Solution {
 public:
     vector<bool> prefixesDivBy5(vector<int>& nums) {
-        vector<bool> res;
-        res.reserve(nums.size());
-        int cur = 0;
+        vector<bool> ans;
+        ans.reserve(nums.size());
+        int c= 0;
 
         for (int b : nums) {
-            cur = ((cur << 1) + b) % 5;
-            res.push_back(cur == 0);
+            c = ((c<< 1) + b) % 5;
+            ans.push_back(c == 0);
         }
 
-        return res;
+        return ans;
     }
 };
