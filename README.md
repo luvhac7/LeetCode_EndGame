@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0062-unique-paths) |
 | [0189-rotate-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0268-missing-number) |
+| [1015-smallest-integer-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0268-missing-number) |
 | [0567-permutation-in-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0567-permutation-in-string) |
 | [0940-fruit-into-baskets](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0940-fruit-into-baskets) |
+| [1015-smallest-integer-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
