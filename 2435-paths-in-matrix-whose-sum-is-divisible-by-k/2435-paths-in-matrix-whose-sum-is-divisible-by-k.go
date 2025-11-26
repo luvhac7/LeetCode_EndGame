@@ -1,6 +1,5 @@
 func numberOfPaths(grid [][]int, k int) int {
 
-
         	const mod int = 1e9 + 7
 
             	gridHeight, gridWidth := len(grid), len(grid[0])
