@@ -1,17 +1,38 @@
 class Solution {
 public:
-    int minSubarray(vector<int>& A, int p) {
-        int n = A.size(), res = n, need = 0, cur = 0;
-        for (auto a : A)
-            need = (need + a) % p;
-        unordered_map<int, int> last = {{0, -1}};
-        for (int i = 0; i < n; ++i) {
-            cur = (cur + A[i]) % p;
-            last[cur] = i;
-            int want = (cur - need + p) % p;
-            if (last.count(want))
-                res = min(res, i - last[want]);
+    int minSubarray(vector<int>& nums, int p) {
+        long long sufsum = 0;
+        for (auto x : nums) {
+            sufsum += x;
         }
-        return res < n ? res : -1;
+
+        long long presum = 0;
+        int n = nums.size();
+        int ans = n;
+        unordered_map<int, int> dp;
+
+        // "Virtual" prefix: sum 0 at index -1 (empty prefix)
+        dp[0] = -1;
+
+        for (int i = 0; i < n; i++) {
+            presum += nums[i]; // extend prefix
+            sufsum -= nums[i]; // shrink suffix
+
+            // Store the latest index with this prefix remainder
+            dp[presum % p] = i;
+
+            // Right remainder and required left remainder
+            int rem = (p - sufsum % p) % p;
+
+            // If we have some prefix with this remainder,
+            // try removing between it and i
+            if (dp.find(rem) != dp.end()) {
+                ans = min(ans, i - dp[rem]);
+            }
+        }
+
+        if (ans == n)
+            return -1;
+        return ans;
     }
 };
