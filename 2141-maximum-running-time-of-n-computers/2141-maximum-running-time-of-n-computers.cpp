@@ -1,34 +1,23 @@
 class Solution {
 public:
-    long long maxRunTime(int n, vector<int>& batteries) {
-        int m = batteries.size();
-        long long sum = 0;
-        for (auto b : batteries)
-            sum += b;
+    static long long maxRunTime(int n, vector<int>& batteries) {
+        const long long sum = reduce(batteries.begin(), batteries.end(), 0LL);
+        long long l = *min_element(batteries.begin(), batteries.end()),
+                  r = sum / n, ans = 0;
 
-        auto ok = [&](long long t) -> bool {
-            long long sum_mini = 0;
-            int rem = n;
-            for (auto b : batteries) {
-                if (b >= t)
-                    rem -= 1;
-                else {
-                    sum_mini += b;
-                }
-            }
-            return sum_mini >= t * rem;
-        };
+        while (l <= r) {
+            long long mid = (l + r) >> 1;
+            long long reserve = 0;
 
-        long long low = 0;
-        long long hig = sum / n;
-        while (low < hig) {
-            long long mid = (low + hig + 1) / 2;
-            if (ok(mid)) {
-                low = mid;
-            } else {
-                hig = mid - 1;
-            }
+            for (int x : batteries)
+                reserve += min((long long)x, mid);
+
+            if (reserve >= mid * n) {
+                ans = mid;   
+                l = mid + 1; 
+            } else
+                r = mid - 1;
         }
-        return low;
+        return ans;
     }
 };
