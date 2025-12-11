@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3432-count-partitions-with-even-sum-difference](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3531-count-covered-buildings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3531-count-covered-buildings) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
 | [1019-squares-of-a-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1019-squares-of-a-sorted-array) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2141-maximum-running-time-of-n-computers) |
+| [3531-count-covered-buildings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3531-count-covered-buildings) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Linked List
 |  |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3531-count-covered-buildings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3531-count-covered-buildings) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3623-count-number-of-trapezoids-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3625-count-number-of-trapezoids-ii) |
