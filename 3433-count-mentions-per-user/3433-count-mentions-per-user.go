@@ -1,49 +1,49 @@
 func countMentions(numberOfUsers int, events [][]string) []int {
-	sort.Slice(events, func(i, j int) bool {
-		if num(events[i][1]) != num(events[j][1]) {
-			return num(events[i][1]) < num(events[j][1])
-		}
-		if events[i][0] != "OFFLINE" && events[j][0] == "OFFLINE" {
-			return false
-		}
-		return true
-	})
+    	sort.Slice(events, func(i, j int) bool {
+        		if num(events[i][1]) != num(events[j][1]) {
+                			return num(events[i][1]) < num(events[j][1])
+                            		}
+                                    		if events[i][0] != "OFFLINE" && events[j][0] == "OFFLINE" {
+                                            			return false
+                                                        		}
+                                                                		return true
+                                                                        	})
 
-	userOnTime := make([]int, numberOfUsers)
-	res := make([]int, numberOfUsers)
-	for _, v := range events {
-		t := num(v[1])
-		if v[0] == "MESSAGE" {
-			if v[2] == "ALL" {
-				for i, _ := range res {
-					res[i]++
-				}
-			} else if v[2] == "HERE" {
-				for i, _ := range res {
-					if t >= userOnTime[i] {
-						res[i]++
-					}
-				}
-			} else {
-				arr := strings.Split(v[2], " ")
-				for _, w := range arr {
-					id := num(w[2:])
-					res[id]++
-				}
-			}
-		} else {
-			t := num(v[1])
-			arr := strings.Split(v[2], " ")
-			for _, w := range arr {
-				userOnTime[num(w)] = t + 60
-			}
-		}
-	}
-	fmt.Print(events)
-	return res
-}
+                                                                            	userOnTime := make([]int, numberOfUsers)
+                                                                                	res := make([]int, numberOfUsers)
+                                                                                    	for _, v := range events {
+                                                                                        		t := num(v[1])
+                                                                                                		if v[0] == "MESSAGE" {
+                                                                                                        			if v[2] == "ALL" {
+                                                                                                                    				for i, _ := range res {
+                                                                                                                                    					res[i]++
+                                                                                                                                                        				}
+                                                                                                                                                                        			} else if v[2] == "HERE" {
+                                                                                                                                                                                    				for i, _ := range res {
+                                                                                                                                                                                                    					if t >= userOnTime[i] {
+                                                                                                                                                                                                                        						res[i]++
+                                                                                                                                                                                                                                                					}
+                                                                                                                                                                                                                                                                    				}
+                                                                                                                                                                                                                                                                                    			} else {
+                                                                                                                                                                                                                                                                                                				arr := strings.Split(v[2], " ")
+                                                                                                                                                                                                                                                                                                                				for _, w := range arr {
+                                                                                                                                                                                                                                                                                                                                					id := num(w[2:])
+                                                                                                                                                                                                                                                                                                                                                    					res[id]++
+                                                                                                                                                                                                                                                                                                                                                                        				}
+                                                                                                                                                                                                                                                                                                                                                                                        			}
+                                                                                                                                                                                                                                                                                                                                                                                                    		} else {
+                                                                                                                                                                                                                                                                                                                                                                                                            			t := num(v[1])
+                                                                                                                                                                                                                                                                                                                                                                                                                        			arr := strings.Split(v[2], " ")
+                                                                                                                                                                                                                                                                                                                                                                                                                                    			for _, w := range arr {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                				userOnTime[num(w)] = t + 60
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                			}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            		}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    	}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        	fmt.Print(events)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            	return res
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
 
-func num(a string) int {
-	res, _ := strconv.Atoi(a)
-	return res
-}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                func num(a string) int {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                	res, _ := strconv.Atoi(a)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    	return res
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
