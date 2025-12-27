@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3074-apple-redistribution-into-boxes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3074-apple-redistribution-into-boxes) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-squares-of-a-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1019-squares-of-a-sorted-array) |
 | [2092-find-all-people-with-secret](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2092-find-all-people-with-secret) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [3074-apple-redistribution-into-boxes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3433-count-mentions-per-user](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3433-count-mentions-per-user) |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1015-smallest-integer-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1590-make-sum-divisible-by-p](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1590-make-sum-divisible-by-p) |
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
+| [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3531-count-covered-buildings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3531-count-covered-buildings) |
@@ -228,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
+| [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 ## Backtracking
 |  |
@@ -260,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2211-count-collisions-on-a-road](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2211-count-collisions-on-a-road) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [3433-count-mentions-per-user](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3433-count-mentions-per-user) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3616-make-array-elements-equal-to-zero) |
 ## Depth-First Search
