@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1590-make-sum-divisible-by-p](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1590-make-sum-divisible-by-p) |
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
 | [1929-concatenation-of-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1929-concatenation-of-array) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2141-maximum-running-time-of-n-computers) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2141-maximum-running-time-of-n-computers) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Binary Tree
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2092-find-all-people-with-secret) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
@@ -287,12 +290,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2092-find-all-people-with-secret) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2092-find-all-people-with-secret) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 ## Matrix
@@ -302,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
 | [0840-magic-squares-in-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0840-magic-squares-in-grid) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 ## Recursion
