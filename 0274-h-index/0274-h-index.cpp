@@ -1,18 +1,19 @@
 class Solution {
 public:
-    int hIndex(vector<int>& cit) {
-        int no_of_papers=cit.size();
-        sort(cit.begin(),cit.end());
-        int hindx=0;
-        for(int i=0;i<no_of_papers;i++)
+    int hIndex(vector<int>& c) {
+        sort(c.begin(),c.end(),greater<int>());
+        int h=0;
+        int n=c.size();
+        for(int i=0;i<n;i++)
         {
-            int point=no_of_papers-i;
-            if(cit[i]>=point)
+            if(c[i]>=i+1)
             {
-                hindx=point;
+                h++;
+            }
+            else{
                 break;
             }
         }
-        return hindx;
+        return h;
     }
 };
