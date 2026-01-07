@@ -11,25 +11,27 @@
           */
           class Solution {
           public:
-              int acc(TreeNode* root) noexcept {
-                      if (!root) return 0;
-                              return root->val += acc(root->left) + acc(root->right);
-                                  }
+              const int mod=1e9+7;
+                  long long ans=INT_MIN, total=0;
+                      int dfs(TreeNode* root){
+                              if (!root) return 0;
+                                      int sum=root->val+dfs(root->left)+dfs(root->right);
+                                              ans=max(ans, (total-sum)*sum);
+                                                      return sum;
+                                                          }
+                                                              int maxProduct(TreeNode* root) {
+                                                                      total=dfs(root);
+                                                                              dfs(root);
+                                                                                  //    cout<<total<<", "<<ans<<endl;
+                                                                                          return ans%mod;
+                                                                                              }
+                                                                                              };
 
-                                      int total = 0;
-                                          int mid = 0;
 
-                                              int dfs(TreeNode* node) noexcept {
-                                                      if (!node) return mid;
-                                                              int x = max(node->val, total - node->val) - mid;
-                                                                      return min(x, min(dfs(node->left), dfs(node->right)));
-                                                                          }
 
-                                                                              int maxProduct(TreeNode* root) noexcept {
-                                                                                      total = acc(root);
-                                                                                              mid = total / 2;
-                                                                                                      int x = dfs(root);
-                                                                                                              int a = x + mid, b = total - a;
-                                                                                                                      return (int64_t{a} * b) % 1'000'000'007u;
-                                                                                                                          }
-                                                                                                                          };
+                                                                                              auto init = []() {
+                                                                                                  ios::sync_with_stdio(false);
+                                                                                                      cin.tie(nullptr);
+                                                                                                          cout.tie(nullptr);
+                                                                                                              return 'c';
+                                                                                                              }();
