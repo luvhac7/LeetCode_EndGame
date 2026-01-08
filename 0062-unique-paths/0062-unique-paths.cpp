@@ -1,5 +1,6 @@
 class Solution {
 public:
+typedef long long ll;
 
     int solve(int m,int n,vector<vector<int>>&dp){
         if(n==1 || m==1)
@@ -19,7 +20,17 @@ public:
          return ans;
 
     }
+    int formula(int m,int n)
+    {
+        ll ans=1;
+        for(int i=n;i<(m+n-1);i++)
+        {
+            ans*=i;
+            ans/=(i-n+1);
+        }
+        return (int)ans;
+    }
     int uniquePaths(int m, int n) {
-        return help(m,n);
+        return formula(m,n);
     }
 };
