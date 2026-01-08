@@ -1,25 +1,23 @@
 class Solution {
 public:
-    int maxDotProduct(vector<int>& nums1, vector<int>& nums2) {
-        int n=nums1.size();
-        int m=nums2.size();
-        vector<vector<int>>dp(n+1,vector<int>(m+1,INT_MIN));
-        for(int i=1;i<=n;i++)
+    int maxDotProduct(vector<int>& a, vector<int>& b) {
+        int x=a.size(),y=b.size();
+        vector<vector<int>>dp(x+1,vector<int>(y+1,INT_MIN));
+        for(int i=1;i<=x;i++)
         {
-            for(int j=1;j<=m;j++)
+            for(int j=1;j<=y;j++)
             {
-                int p=nums1[i-1]*nums2[j-1];
+                int ans=a[i-1]*b[j-1];
                 dp[i][j]=max(
                     {
-                        p,
-                        dp[i-1][j-1]==INT_MIN ?INT_MIN:dp[i-1][j-1]+p,
+                        ans,
                         dp[i-1][j],
-                        dp[i][j-1]
+                        dp[i][j-1],
+                        dp[i-1][j-1]==INT_MIN ? INT_MIN:dp[i-1][j-1]+ans
                     }
                 );
-
             }
         }
-        return dp[n][m];
+        return dp[x][y];
     }
 };
