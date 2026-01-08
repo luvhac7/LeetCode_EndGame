@@ -5,8 +5,7 @@ public:
         vector<vector<int>>dp(n+1,vector<int>(m+1,INT_MIN));
         for(int i=1;i<=n;i++)
         {
-            for(int j=1;j<=m;j++)
-            {
+            for(int j=1;j<=m;j++){
                 int p=nums1[i-1]*nums2[j-1];
                 dp[i][j]=max({
                     p,
@@ -16,8 +15,6 @@ public:
                 });
             }
         }
-
         return dp[n][m];
     }
-
 };
