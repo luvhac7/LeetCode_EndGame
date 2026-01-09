@@ -11,19 +11,19 @@
  */
 class Solution {
 public:
-    TreeNode* ans=NULL;//LCA
-    int cnt=0;//maxdepth
+    int maxi=0;
+    TreeNode* ans=NULL;
     int solve(TreeNode* root,int i)
     {
-        cnt=max(cnt,i);
+        maxi=max(maxi,i);
         if(!root) return i;
-        int east=solve(root->left,i+1);
-        int west=solve(root->right,i+1);
-        if(east==cnt && west==cnt)
+        int lf=solve(root->left,i+1);
+        int rf=solve(root->right,i+1);
+        if(lf==maxi && rf==maxi)
         {
             ans=root;
         }
-        return max(east,west);
+        return max(lf,rf);
     }
     TreeNode* subtreeWithAllDeepest(TreeNode* root) {
         solve(root,0);
