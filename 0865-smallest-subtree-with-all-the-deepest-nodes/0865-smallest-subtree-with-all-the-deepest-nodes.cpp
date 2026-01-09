@@ -11,22 +11,22 @@
  */
 class Solution {
 public:
-int md=0;
-TreeNode* x=NULL;
-    int dfs(TreeNode* root,int d)
+    TreeNode* ans=NULL;//LCA
+    int cnt=0;//maxdepth
+    int solve(TreeNode* root,int i)
     {
-        md =max(md,d);
-        if(!root) return d;
-        int l=dfs(root->left,d+1);
-        int r=dfs(root->right,d+1);
-        if(md==l && md==r)
+        cnt=max(cnt,i);
+        if(!root) return i;
+        int east=solve(root->left,i+1);
+        int west=solve(root->right,i+1);
+        if(east==cnt && west==cnt)
         {
-            x=root;
+            ans=root;
         }
-        return max(l,r);
+        return max(east,west);
     }
     TreeNode* subtreeWithAllDeepest(TreeNode* root) {
-        dfs(root,0);
-        return x;
+        solve(root,0);
+        return ans;
     }
 };
