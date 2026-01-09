@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0055-jump-game) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0062-unique-paths) |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0032-longest-valid-parentheses) |
+| [0044-wildcard-matching](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0072-edit-distance) |
 | [0187-repeated-dna-sequences](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0187-repeated-dna-sequences) |
 | [0567-permutation-in-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0567-permutation-in-string) |
@@ -353,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0024-swap-nodes-in-pairs) |
+| [0044-wildcard-matching](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0044-wildcard-matching) |
 ## Sliding Window
 |  |
 | ------- |
