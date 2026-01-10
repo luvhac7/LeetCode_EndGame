@@ -9,24 +9,24 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
- struct T{
-    int yes;
-    int no;
- };
+struct T{
+    int y,n;
+};
 class Solution {
 public:
-    int rob(TreeNode* root) {
-        const auto &[yes,no]=solve(root);
-        return max(yes,no);
-    }
-    T solve(TreeNode* root)
+    T f(TreeNode* root)
     {
         if(root==nullptr)
-        {
             return {0,0};
-        }
-        const T l=solve(root->left);
-        const T r=solve(root->right);
-        return {root->val+l.no+r.no,max(l.no,l.yes)+max(r.no,r.yes)};
+        T l=f(root->left);
+        T r=f(root->right);
+        T cur;
+        cur.y=root->val+l.n+r.n;
+        cur.n=max(l.y,l.n)+max(r.y,r.n);
+        return cur;
+    }
+    int rob(TreeNode* root) {
+        T res=f(root);
+        return max(res.y,res.n);
     }
 };
