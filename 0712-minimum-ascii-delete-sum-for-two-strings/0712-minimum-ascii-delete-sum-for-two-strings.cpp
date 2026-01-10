@@ -7,17 +7,19 @@ public:
         {
             for(int j=0;j<m;j++)
             {
-                if(s1[i]==s2[j]){
-                dp[i+1][j+1]=dp[i][j]+s1[i];
+                if(s1[i]==s2[j])
+                {
+                    dp[i+1][j+1]=dp[i][j]+s1[i];
                 }
                 else{
                     dp[i+1][j+1]=max(dp[i+1][j],dp[i][j+1]);
                 }
             }
+
         }
         int t=0;
         for(char c:s1)t+=c;
-        for(char c:s2)t+=c;
+        for(char c:s2) t+=c;
         return t-2*dp[n][m];
     }
 };
