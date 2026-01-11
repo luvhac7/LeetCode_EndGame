@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0063-unique-paths-ii) |
 | [0066-plus-one](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0066-plus-one) |
+| [0085-maximal-rectangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0189-rotate-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0189-rotate-array) |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0063-unique-paths-ii) |
 | [0072-edit-distance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0072-edit-distance) |
+| [0085-maximal-rectangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0085-maximal-rectangle) |
 | [0198-house-robber](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0213-house-robber-ii) |
 | [0337-house-robber-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0337-house-robber-iii) |
@@ -362,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0037-sudoku-solver) |
 | [0063-unique-paths-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0063-unique-paths-ii) |
+| [0085-maximal-rectangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
 | [0840-magic-squares-in-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0840-magic-squares-in-grid) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
@@ -423,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0085-maximal-rectangle) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2211-count-collisions-on-a-road](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2211-count-collisions-on-a-road) |
@@ -430,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0085-maximal-rectangle) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Memoization
