@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-squares-of-a-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1019-squares-of-a-sorted-array) |
 | [1046-max-consecutive-ones-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1266-minimum-time-visiting-all-points](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1266-minimum-time-visiting-all-points) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1390-four-divisors](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1390-four-divisors) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1458-max-dot-product-of-two-subsequences) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0840-magic-squares-in-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0840-magic-squares-in-grid) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
+| [1266-minimum-time-visiting-all-points](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1266-minimum-time-visiting-all-points) |
 | [1390-four-divisors](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1390-four-divisors) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1817-calculate-money-in-leetcode-bank) |
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [1266-minimum-time-visiting-all-points](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1266-minimum-time-visiting-all-points) |
 | [3623-count-number-of-trapezoids-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3625-count-number-of-trapezoids-ii) |
 ## Enumeration
