@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0646-maximum-length-of-pair-chain](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0646-maximum-length-of-pair-chain) |
 | [0759-set-intersection-size-at-least-two](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0759-set-intersection-size-at-least-two) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
@@ -324,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0567-permutation-in-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0756-pyramid-transition-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0756-pyramid-transition-matrix) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0944-delete-columns-to-make-sorted](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -443,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0085-maximal-rectangle) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2211-count-collisions-on-a-road](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2211-count-collisions-on-a-road) |
 ## Monotonic Stack
