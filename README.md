@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0213-house-robber-ii) |
+| [0221-maximal-square](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0274-h-index) |
@@ -287,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0091-decode-ways) |
 | [0198-house-robber](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0213-house-robber-ii) |
+| [0221-maximal-square](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0221-maximal-square) |
 | [0241-different-ways-to-add-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0241-different-ways-to-add-parentheses) |
 | [0337-house-robber-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0337-house-robber-iii) |
 | [0435-non-overlapping-intervals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0435-non-overlapping-intervals) |
@@ -407,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0063-unique-paths-ii) |
 | [0085-maximal-rectangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
+| [0221-maximal-square](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0221-maximal-square) |
 | [0840-magic-squares-in-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0840-magic-squares-in-grid) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
