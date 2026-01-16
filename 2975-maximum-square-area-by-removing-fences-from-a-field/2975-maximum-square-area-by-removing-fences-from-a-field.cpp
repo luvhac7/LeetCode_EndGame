@@ -26,7 +26,7 @@ int mod=1e9+7;
                 s2.insert(v[j]-v[i]);
             }
         }
-        ll ans=0;
+        ll ans=0;   
         for(auto i:s1)
         {
             if(s2.find(i)!=s2.end())
