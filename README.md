@@ -295,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0063-unique-paths-ii) |
 | [0072-edit-distance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0085-maximal-rectangle) |
+| [0087-scramble-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0087-scramble-string) |
 | [0091-decode-ways](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0091-decode-ways) |
 | [0198-house-robber](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0213-house-robber-ii) |
@@ -357,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0032-longest-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0072-edit-distance) |
+| [0087-scramble-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0087-scramble-string) |
 | [0091-decode-ways](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0091-decode-ways) |
 | [0187-repeated-dna-sequences](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0187-repeated-dna-sequences) |
 | [0241-different-ways-to-add-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0241-different-ways-to-add-parentheses) |
