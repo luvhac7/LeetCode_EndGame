@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0189-rotate-array) |
 | [0241-different-ways-to-add-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0268-missing-number) |
+| [0343-integer-break](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0343-integer-break) |
 | [0840-magic-squares-in-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0840-magic-squares-in-grid) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-largest-perimeter-triangle) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0221-maximal-square) |
 | [0241-different-ways-to-add-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0241-different-ways-to-add-parentheses) |
 | [0337-house-robber-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0337-house-robber-iii) |
+| [0343-integer-break](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0343-integer-break) |
 | [0435-non-overlapping-intervals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0518-coin-change-ii) |
