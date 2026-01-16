@@ -3,13 +3,11 @@ public:
 typedef long long ll;
 int mod=1e9+7;
     int maximizeSquareArea(int m, int n, vector<int>& h, vector<int>& v) {
-        //h->sort
-        //v->sort
-        unordered_set<int>s1,s2;
         h.push_back(1);
         h.push_back(m);
         v.push_back(1);
         v.push_back(n);
+        unordered_set<int>s1,s2;
         sort(h.begin(),h.end());
         sort(v.begin(),v.end());
         for(int i=0;i<h.size();i++)
@@ -26,7 +24,7 @@ int mod=1e9+7;
                 s2.insert(v[j]-v[i]);
             }
         }
-        ll ans=0;   
+        ll ans=0;
         for(auto i:s1)
         {
             if(s2.find(i)!=s2.end())
@@ -36,7 +34,7 @@ int mod=1e9+7;
                 {
                     ans=k;
                 }
-
+               // ans=max(ans,k);
             }
         }
         if(ans==0) return -1;
