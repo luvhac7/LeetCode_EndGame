@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0002-add-two-numbers) |
 | [0062-unique-paths](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0189-rotate-array) |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0002-add-two-numbers) |
 | [0024-swap-nodes-in-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0024-swap-nodes-in-pairs) |
 | [0061-rotate-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0086-partition-list) |
@@ -454,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0002-add-two-numbers) |
 | [0024-swap-nodes-in-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0024-swap-nodes-in-pairs) |
 | [0044-wildcard-matching](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0044-wildcard-matching) |
 | [0241-different-ways-to-add-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0241-different-ways-to-add-parentheses) |
