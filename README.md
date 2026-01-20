@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0066-plus-one) |
 | [0085-maximal-rectangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0088-merge-sorted-array) |
@@ -310,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0085-maximal-rectangle) |
 | [0087-scramble-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0087-scramble-string) |
@@ -443,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0037-sudoku-solver) |
 | [0063-unique-paths-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0064-minimum-path-sum) |
 | [0085-maximal-rectangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0221-maximal-square) |
