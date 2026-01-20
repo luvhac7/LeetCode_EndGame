@@ -1,19 +1,18 @@
 class Solution {
 public:
+vector<int>r;
     vector<int> minBitwiseArray(vector<int>& nums) {
-        vector<int>res;
-        int n=nums.size();
-        for(auto &i:nums)
+        for(int i:nums)
         {
-            if(i&1)
+            if(i & 1)
             {
-                int z=((i+1)&~i)>>1;
-                res.push_back(~z & i);
+                int x=((i+1)&~i)>>1;
+                r.push_back(~x&i);
             }
             else{
-                res.push_back(-1);
+                r.push_back(-1);
             }
         }
-        return res;
+        return r;
     }
 };
