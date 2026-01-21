@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1590-make-sum-divisible-by-p](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1590-make-sum-divisible-by-p) |
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
+| [1707-maximum-xor-with-an-element-from-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1895-largest-magic-square](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1895-largest-magic-square) |
 | [1929-concatenation-of-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1929-concatenation-of-array) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
@@ -502,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0287-find-the-duplicate-number) |
 | [0756-pyramid-transition-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0756-pyramid-transition-matrix) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-binary-prefix-divisible-by-5) |
+| [1707-maximum-xor-with-an-element-from-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2939-maximum-xor-product](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2939-maximum-xor-product) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3314-construct-the-minimum-bitwise-array-i) |
@@ -593,4 +595,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3454-separate-squares-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3454-separate-squares-ii) |
+## Trie
+|  |
+| ------- |
+| [1707-maximum-xor-with-an-element-from-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1707-maximum-xor-with-an-element-from-array) |
 <!---LeetCode Topics End-->
