@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2560-house-robber-iv](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2560-house-robber-iv) |
+| [2680-maximum-or](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2680-maximum-or) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3025-find-the-number-of-ways-to-place-people-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3025-find-the-number-of-ways-to-place-people-i) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2384-largest-palindromic-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2384-largest-palindromic-number) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2560-house-robber-iv](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2560-house-robber-iv) |
+| [2680-maximum-or](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2680-maximum-or) |
 | [2939-maximum-xor-product](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2939-maximum-xor-product) |
 | [3074-apple-redistribution-into-boxes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3075-maximize-happiness-of-selected-children) |
@@ -490,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-largest-magic-square](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1895-largest-magic-square) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2680-maximum-or](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2680-maximum-or) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3616-make-array-elements-equal-to-zero) |
@@ -505,6 +508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-binary-prefix-divisible-by-5](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
+| [2680-maximum-or](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2680-maximum-or) |
 | [2939-maximum-xor-product](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2939-maximum-xor-product) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
