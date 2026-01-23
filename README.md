@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0287-find-the-duplicate-number) |
 | [0435-non-overlapping-intervals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0485-max-consecutive-ones](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0518-coin-change-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
