@@ -1,7 +1,6 @@
 class Solution {
 public:
-    using ll = long long;
-
+typedef long long ll;
     int minimumPairRemoval(vector<int>& a) {
         int n = a.size();
 
