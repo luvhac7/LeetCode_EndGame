@@ -1,15 +1,14 @@
 class Solution {
 public:
-    int minPairSum(vector<int>&a) {
+    int minPairSum(vector<int>& a) {
+        int x=0,p=0,r=a.size()-1;
         sort(a.begin(),a.end());
-        int s=0,l=0,r=a.size()-1;
-        while(l<r)
+        while(p<r)
         {
-            if(a[l]+a[r]>s)
-            {
-                s=a[l]+a[r];
-            }l++;r--;
+            int y=a[p]+a[r];
+            if(y>x) x=y;
+            p++;r--;
         }
-        return s;
+        return x;
     }
 };
