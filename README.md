@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0045-jump-game-ii) |
+| [0054-spiral-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0064-minimum-path-sum) |
@@ -435,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0054-spiral-matrix) |
 | [1929-concatenation-of-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1929-concatenation-of-array) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2211-count-collisions-on-a-road](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2211-count-collisions-on-a-road) |
@@ -477,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0037-sudoku-solver) |
+| [0054-spiral-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0073-set-matrix-zeroes) |
