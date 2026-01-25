@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1929-concatenation-of-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1929-concatenation-of-array) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1975-maximum-matrix-sum) |
+| [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1288-remove-covered-intervals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1288-remove-covered-intervals) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2092-find-all-people-with-secret](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2092-find-all-people-with-secret) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
@@ -505,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0567-permutation-in-string) |
 | [0940-fruit-into-baskets](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1046-max-consecutive-ones-iii) |
+| [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 ## Prefix Sum
