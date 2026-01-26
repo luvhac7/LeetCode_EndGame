@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2560-house-robber-iv](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2560-house-robber-iv) |
 | [2680-maximum-or](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2680-maximum-or) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3025-find-the-number-of-ways-to-place-people-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3025-find-the-number-of-ways-to-place-people-i) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2939-maximum-xor-product](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2939-maximum-xor-product) |
+| [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
 | [3025-find-the-number-of-ways-to-place-people-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3025-find-the-number-of-ways-to-place-people-i) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3432-count-partitions-with-even-sum-difference) |
@@ -308,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
 | [2384-largest-palindromic-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2384-largest-palindromic-number) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
+| [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -496,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1975-maximum-matrix-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1975-maximum-matrix-sum) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
+| [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
 ## Recursion
 |  |
 | ------- |
