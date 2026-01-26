@@ -648,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0620-not-boring-movies](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0620-not-boring-movies) |
+| [1075-project-employees-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1075-project-employees-i) |
 | [1251-average-selling-price](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1251-average-selling-price) |
 | [1280-students-and-examinations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1280-students-and-examinations) |
 <!---LeetCode Topics End-->
