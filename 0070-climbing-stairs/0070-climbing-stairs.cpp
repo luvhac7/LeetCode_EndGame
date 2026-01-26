@@ -5,8 +5,8 @@ public:
         for(int i=2;i<=n;i++)
         {
             int sum=a+b;
-            b=a;
-            a=sum;
+            swap(b,a);
+            swap(sum,a);
         }
         return a;
     }
