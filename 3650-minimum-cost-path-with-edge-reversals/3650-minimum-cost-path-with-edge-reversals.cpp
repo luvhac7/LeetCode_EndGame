@@ -1,33 +1,37 @@
 class Solution {
 public:
-typedef long long ll;
-    int minCost(int n, vector<vector<int>>& a) {
-        vector<vector<pair<int,int>>>adj(n);
-        for(auto &i:a)
-        {
-            int u=i[0],v=i[1],w=i[2];
-            adj[u].push_back({v,w});
-            adj[v].push_back({u,2*w});
+    int minCost(int n, vector<vector<int>>& edges) {
+        vector<vector<pair<int, int>>> graph(n);
+
+        for (auto& e : edges) {
+            int u = e[0], v = e[1], w = e[2];
+            graph[u].push_back({v, w});
+            graph[v].push_back({u, 2 * w});
         }
-        ll INF=1e18;
-        vector<ll>dist(n,INF);
-        using T=pair<ll,int>;
-        priority_queue<T,vector<T>,greater<T>>pq;
-        dist[0]=0;
-        pq.push({0,0});
-        while(!pq.empty())
-        {
-            auto [cost,u]=pq.top();
+
+        vector<long long> dist(n, LLONG_MAX);
+        priority_queue<pair<long long, int>, vector<pair<long long, int>>,
+                       greater<>>
+            pq;
+
+        dist[0] = 0;
+        pq.push({0, 0});
+
+        while (!pq.empty()) {
+            auto [cost, node] = pq.top();
             pq.pop();
-            if(cost!=dist[u]) continue;
-            for(auto &[v,w]:adj[u]){
-                ll nc=cost+w;
-                if(nc<dist[v]){
-                    dist[v]=nc;
-                    pq.push({nc,v});
+
+            if (cost > dist[node])
+                continue;
+
+            for (auto& [next, w] : graph[node]) {
+                if (dist[next] > cost + w) {
+                    dist[next] = cost + w;
+                    pq.push({dist[next], next});
                 }
             }
         }
-        return dist[n-1]==INF ? -1:dist[n-1];
+
+        return dist[n - 1] == LLONG_MAX ? -1 : dist[n - 1];
     }
 };
