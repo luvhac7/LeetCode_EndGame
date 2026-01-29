@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3025-find-the-number-of-ways-to-place-people-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3025-find-the-number-of-ways-to-place-people-i) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3074-apple-redistribution-into-boxes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3074-apple-redistribution-into-boxes) |
@@ -454,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2211-count-collisions-on-a-road](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2211-count-collisions-on-a-road) |
 | [2384-largest-palindromic-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2384-largest-palindromic-number) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3563-lexicographically-smallest-string-after-adjacent-removals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3563-lexicographically-smallest-string-after-adjacent-removals) |
 | [3606-coupon-code-validator](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3606-coupon-code-validator) |
@@ -663,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0787-cheapest-flights-within-k-stops) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Segment Tree
 |  |
@@ -687,5 +690,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 <!---LeetCode Topics End-->
