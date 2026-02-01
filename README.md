@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2317-maximum-xor-after-operations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2317-maximum-xor-after-operations) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
+| [2386-find-the-k-sum-of-an-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2386-find-the-k-sum-of-an-array) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2092-find-all-people-with-secret](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2092-find-all-people-with-secret) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
+| [2386-find-the-k-sum-of-an-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2386-find-the-k-sum-of-an-array) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
@@ -441,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
+| [2386-find-the-k-sum-of-an-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2386-find-the-k-sum-of-an-array) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
