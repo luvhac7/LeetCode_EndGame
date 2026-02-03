@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
 | [2386-find-the-k-sum-of-an-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2386-find-the-k-sum-of-an-array) |
+| [2398-maximum-number-of-robots-within-budget](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2398-maximum-number-of-robots-within-budget) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2398-maximum-number-of-robots-within-budget](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2398-maximum-number-of-robots-within-budget) |
 | [2560-house-robber-iv](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2560-house-robber-iv) |
 | [3453-separate-squares-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3453-separate-squares-i) |
 | [3454-separate-squares-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3454-separate-squares-ii) |
@@ -457,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
 | [2386-find-the-k-sum-of-an-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2386-find-the-k-sum-of-an-array) |
+| [2398-maximum-number-of-robots-within-budget](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2398-maximum-number-of-robots-within-budget) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
@@ -601,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1046-max-consecutive-ones-iii) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
+| [2398-maximum-number-of-robots-within-budget](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2398-maximum-number-of-robots-within-budget) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -616,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-largest-magic-square](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1895-largest-magic-square) |
 | [2100-find-good-days-to-rob-the-bank](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2100-find-good-days-to-rob-the-bank) |
 | [2222-number-of-ways-to-select-buildings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2222-number-of-ways-to-select-buildings) |
+| [2398-maximum-number-of-robots-within-budget](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2398-maximum-number-of-robots-within-budget) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2680-maximum-or](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2680-maximum-or) |
@@ -700,11 +705,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
+| [2398-maximum-number-of-robots-within-budget](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2398-maximum-number-of-robots-within-budget) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
+| [2398-maximum-number-of-robots-within-budget](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2398-maximum-number-of-robots-within-budget) |
 ## Geometry
 |  |
 | ------- |
