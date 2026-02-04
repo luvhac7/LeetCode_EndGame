@@ -1,6 +1,7 @@
 class Solution {
 public:
-typedef long long ll;
+    using ll = long long;
+
     ll maxSumTrionic(vector<int>& a) {
         a.push_back(INT_MIN);
         int n = a.size();
