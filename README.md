@@ -372,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1015-smallest-integer-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1590-make-sum-divisible-by-p](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1590-make-sum-divisible-by-p) |
 | [1612-avoid-flood-in-the-city](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1612-avoid-flood-in-the-city) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
 | [2384-largest-palindromic-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2384-largest-palindromic-number) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
@@ -462,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0274-h-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0274-h-index) |
 | [0767-reorganize-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0767-reorganize-string) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2384-largest-palindromic-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2384-largest-palindromic-number) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0944-delete-columns-to-make-sorted](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0960-delete-columns-to-make-sorted-iii) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1903-largest-odd-number-in-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1903-largest-odd-number-in-string) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
