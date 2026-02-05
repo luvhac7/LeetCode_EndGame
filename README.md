@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0045-jump-game-ii) |
+| [0049-group-anagrams](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0063-unique-paths-ii) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0018-4sum) |
+| [0049-group-anagrams](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0088-merge-sorted-array) |
 | [0242-valid-anagram](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0268-missing-number) |
@@ -351,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0041-first-missing-positive) |
+| [0049-group-anagrams](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0073-set-matrix-zeroes) |
 | [0138-copy-list-with-random-pointer](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0138-copy-list-with-random-pointer) |
 | [0140-word-break-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0140-word-break-ii) |
@@ -506,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0032-longest-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0044-wildcard-matching) |
+| [0049-group-anagrams](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0072-edit-distance) |
 | [0087-scramble-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0087-scramble-string) |
 | [0091-decode-ways](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0091-decode-ways) |
