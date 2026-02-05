@@ -366,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0268-missing-number) |
+| [0383-ransom-note](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0383-ransom-note) |
 | [0567-permutation-in-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0567-permutation-in-string) |
 | [0756-pyramid-transition-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0756-pyramid-transition-matrix) |
 | [0767-reorganize-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0767-reorganize-string) |
@@ -467,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0274-h-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0274-h-index) |
+| [0383-ransom-note](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0383-ransom-note) |
 | [0767-reorganize-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0767-reorganize-string) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2384-largest-palindromic-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2384-largest-palindromic-number) |
@@ -524,6 +526,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0242-valid-anagram) |
 | [0273-integer-to-english-words](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0273-integer-to-english-words) |
 | [0316-remove-duplicate-letters](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0316-remove-duplicate-letters) |
+| [0383-ransom-note](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0567-permutation-in-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
