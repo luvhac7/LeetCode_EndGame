@@ -271,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0018-4sum) |
 | [0088-merge-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0088-merge-sorted-array) |
+| [0242-valid-anagram](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0274-h-index) |
 | [0435-non-overlapping-intervals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0435-non-overlapping-intervals) |
@@ -358,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0146-lru-cache) |
 | [0187-repeated-dna-sequences](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0187-repeated-dna-sequences) |
 | [0205-isomorphic-strings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0268-missing-number) |
 | [0567-permutation-in-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0567-permutation-in-string) |
 | [0756-pyramid-transition-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0756-pyramid-transition-matrix) |
@@ -511,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0187-repeated-dna-sequences) |
 | [0205-isomorphic-strings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0205-isomorphic-strings) |
 | [0241-different-ways-to-add-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0241-different-ways-to-add-parentheses) |
+| [0242-valid-anagram](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0242-valid-anagram) |
 | [0273-integer-to-english-words](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0273-integer-to-english-words) |
 | [0316-remove-duplicate-letters](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0316-remove-duplicate-letters) |
 | [0392-is-subsequence](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0392-is-subsequence) |
