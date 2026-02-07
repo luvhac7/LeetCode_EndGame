@@ -449,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1567-maximum-length-of-subarray-with-positive-product](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1567-maximum-length-of-subarray-with-positive-product) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2100-find-good-days-to-rob-the-bank](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2100-find-good-days-to-rob-the-bank) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
@@ -538,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0944-delete-columns-to-make-sorted](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0960-delete-columns-to-make-sorted-iii) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1903-largest-odd-number-in-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1903-largest-odd-number-in-string) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -707,6 +709,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [2211-count-collisions-on-a-road](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2211-count-collisions-on-a-road) |
 ## Monotonic Stack
 |  |
