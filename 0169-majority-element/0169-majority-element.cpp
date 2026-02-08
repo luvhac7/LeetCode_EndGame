@@ -1,15 +1,14 @@
 class Solution {
 public:
     int majorityElement(vector<int>& a) {
-        int cnt=0,can=0;
+        int n=a.size(),cnt=0;
+        sort(a.begin(),a.end());
+        int x=a[n/2];
         for(int i:a)
         {
-            if(cnt==0){
-                can=i;
-            }
-            cnt+=(i==can)? 1:-1;
+            if(i==x) cnt++;
         }
-        return can;
-        
-            }
+        if(cnt>n/2) return x;
+        return -1;
+    }
 };
