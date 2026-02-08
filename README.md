@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0485-max-consecutive-ones](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0485-max-consecutive-ones) |
+| [0493-reverse-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0518-coin-change-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0191-number-of-1-bits) |
+| [0493-reverse-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0493-reverse-pairs) |
 | [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
 ## Tree
 |  |
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0275-h-index-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0300-longest-increasing-subsequence) |
+| [0493-reverse-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0493-reverse-pairs) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [1046-max-consecutive-ones-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -715,6 +718,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0493-reverse-pairs) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
@@ -801,6 +805,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0493-reverse-pairs) |
 | [3454-separate-squares-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3454-separate-squares-ii) |
 ## Line Sweep
 |  |
@@ -831,4 +836,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0128-longest-consecutive-sequence) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0493-reverse-pairs) |
+## Merge Sort
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
