@@ -1,28 +1,28 @@
 class Solution {
 public:
-    vector<int> spiralOrder(vector<vector<int>>& matrix) {
-        int rows = matrix.size();
-        int cols = matrix[0].size();
-        int x = 0;
-        int y = 0;
-        int dx = 1;
-        int dy = 0;
-        vector<int> res;
-
-        for (int i = 0; i < rows * cols; i++) {
-            res.push_back(matrix[y][x]);
-            matrix[y][x] = -101;
-
-            if (!(0 <= x + dx && x + dx < cols && 0 <= y + dy && y + dy < rows) || matrix[y+dy][x+dx] == -101) {
-                int temp = dx;
-                dx = -dy;
-                dy = temp;
-            }
-
-            x += dx;
-            y += dy;
+    vector<int> spiralOrder(vector<vector<int>>& a) {
+        int m=a.size(),n=a[0].size();
+        vector<int>res;
+        vector<vector<bool>>vis(m,vector<bool>(n,false));
+        vector<int>dr={0,1,0,-1};
+        vector<int>dc={1,0,-1,0};
+        int r=0,c=0,idx=0;
+        for(int i=0;i<m*n;i++)
+        {
+            res.push_back(a[r][c]);
+            vis[r][c]=true;
+            int newr=r+dr[idx];
+            int newc=c+dc[idx];
+        if(0<=newr && newr<m && 0<=newc && newc<n && !vis[newr][newc] )
+        {
+            r=newr;c=newc;
         }
-
+        else{
+            idx=(idx+1)%4;
+            r+=dr[idx];
+            c+=dc[idx];
+        }
+        }
         return res;
-    }        
+    }
 };
