@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0136-single-number) |
 | [0140-word-break-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0152-maximum-product-subarray) |
+| [0169-majority-element](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0169-majority-element](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0191-number-of-1-bits) |
 | [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
 ## Tree
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0274-h-index) |
@@ -366,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0146-lru-cache) |
+| [0169-majority-element](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0169-majority-element) |
 | [0187-repeated-dna-sequences](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0187-repeated-dna-sequences) |
 | [0205-isomorphic-strings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0242-valid-anagram) |
@@ -472,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0274-h-index) |
 | [0383-ransom-note](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0383-ransom-note) |
 | [0767-reorganize-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0767-reorganize-string) |
