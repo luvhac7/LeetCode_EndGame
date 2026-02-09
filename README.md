@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2560-house-robber-iv](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2560-house-robber-iv) |
+| [2588-count-the-number-of-beautiful-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2588-count-the-number-of-beautiful-subarrays) |
 | [2680-maximum-or](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2680-maximum-or) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
@@ -408,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
 | [2384-largest-palindromic-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2384-largest-palindromic-number) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
+| [2588-count-the-number-of-beautiful-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2588-count-the-number-of-beautiful-subarrays) |
 | [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
@@ -691,6 +693,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2398-maximum-number-of-robots-within-budget](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2398-maximum-number-of-robots-within-budget) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2588-count-the-number-of-beautiful-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2588-count-the-number-of-beautiful-subarrays) |
 | [2680-maximum-or](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2680-maximum-or) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
@@ -711,6 +714,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2317-maximum-xor-after-operations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2317-maximum-xor-after-operations) |
+| [2588-count-the-number-of-beautiful-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2588-count-the-number-of-beautiful-subarrays) |
 | [2680-maximum-or](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2680-maximum-or) |
 | [2939-maximum-xor-product](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2939-maximum-xor-product) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
