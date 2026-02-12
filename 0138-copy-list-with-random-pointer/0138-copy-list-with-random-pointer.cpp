@@ -16,25 +16,21 @@ public:
 
 class Solution {
 public:
-Node* solve(Node* head)
-{
-    Node* t=head;
-    map<Node*,Node*>mp;
-    while(t)
-    {
-        mp[t]=new Node(t->val);
-        t=t->next;
-    }
-    t=head;
-    while(t)
-    {
-        mp[t]->next=mp[t->next];
-        mp[t]->random=mp[t->random];
-        t=t->next;
-    }
-    return mp[head];
-}
-    Node* copyRandomList(Node* head) {
-        return solve(head);
+    Node* copyRandomList(Node* a) {
+        if(a == NULL) return NULL;
+        map<Node*,Node*>mp;
+        Node* t=a;
+        while(t)
+        {
+            mp[t]=new Node(t->val);t=t->next;
+        }
+        t=a;
+        while(t)
+        {
+            mp[t]->next=mp[t->next];
+            mp[t]->random=mp[t->random];
+            t=t->next;
+        }
+        return mp[a];
     }
 };
