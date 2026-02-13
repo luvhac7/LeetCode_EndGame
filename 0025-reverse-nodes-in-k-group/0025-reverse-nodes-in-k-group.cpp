@@ -10,48 +10,24 @@
  */
 class Solution {
 public:
-ListNode* solve(ListNode* t,int k)
-{
-    k-=1;
-    while(t && k>0)
-    {
-        k--;
-        t=t->next;
-    }
-    return t;
-}
-    ListNode* rev(ListNode* t) {
-        ListNode* nn = NULL;
-        while (t) {
-            ListNode* nxt = t->next;
-            t->next = nn;
-            nn = t;
-            t = nxt;
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        ListNode* temp=head;
+        vector<int>x;
+        while(temp)
+        {
+            x.push_back(temp->val);temp=temp->next;
         }
-        return nn;
-    }
-    ListNode* reverseKGroup(ListNode* h, int k) {
-        ListNode* t = h;
-        ListNode* p = NULL;
-
-        while (t) {
-            ListNode* nn = solve(t, k);
-            if (!nn) {
-                if (p) p->next = t;
-                break;
-            }
-
-            ListNode* nxtn = nn->next;
-            nn->next = NULL;
-
-            ListNode* newHead = rev(t);
-
-            if (t == h) h = newHead;
-            else p->next = newHead;
-
-            p = t;
-            t = nxtn;
+        for(int i=0;i+k<=x.size();i+=k)
+        {
+            reverse(x.begin()+i,x.begin()+i+k);
         }
-        return h;
+        ListNode* dum=new ListNode(0);
+        ListNode* cur=dum;
+        for(int i:x)
+        {
+            cur->next=new ListNode(i);
+            cur=cur->next;
+        }
+        return dum->next;
     }
 };
