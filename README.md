@@ -343,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0024-swap-nodes-in-pairs) |
+| [0025-reverse-nodes-in-k-group](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0086-partition-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0138-copy-list-with-random-pointer) |
@@ -678,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0024-swap-nodes-in-pairs) |
+| [0025-reverse-nodes-in-k-group](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0025-reverse-nodes-in-k-group) |
 | [0044-wildcard-matching](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0044-wildcard-matching) |
 | [0241-different-ways-to-add-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0273-integer-to-english-words) |
