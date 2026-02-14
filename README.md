@@ -488,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0646-maximum-length-of-pair-chain) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0799-champagne-tower](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0799-champagne-tower) |
 | [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
