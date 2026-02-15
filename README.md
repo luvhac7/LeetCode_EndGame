@@ -228,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0013-roman-to-integer) |
+| [0043-multiply-strings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0066-plus-one) |
@@ -568,6 +569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0032-longest-valid-parentheses) |
+| [0043-multiply-strings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0043-multiply-strings) |
 | [0044-wildcard-matching](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0067-add-binary) |
@@ -613,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0067-add-binary) |
 | [1929-concatenation-of-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1929-concatenation-of-array) |
