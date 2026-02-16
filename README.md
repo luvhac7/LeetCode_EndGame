@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0198-house-robber) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0275-h-index-ii) |
