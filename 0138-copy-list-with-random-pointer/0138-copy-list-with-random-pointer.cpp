@@ -16,21 +16,21 @@ public:
 
 class Solution {
 public:
-    Node* copyRandomList(Node* a) {
-        if(a == NULL) return NULL;
-        map<Node*,Node*>mp;
-        Node* t=a;
+typedef Node* N;
+    Node* copyRandomList(Node* h) {
+        map<N,N>mp;
+        N t=h;
         while(t)
         {
             mp[t]=new Node(t->val);t=t->next;
         }
-        t=a;
+        t=h;
         while(t)
         {
             mp[t]->next=mp[t->next];
             mp[t]->random=mp[t->random];
             t=t->next;
         }
-        return mp[a];
+        return mp[h];
     }
 };
