@@ -907,6 +907,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1251-average-selling-price](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1251-average-selling-price) |
 | [1280-students-and-examinations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1280-students-and-examinations) |
 | [1633-percentage-of-users-attended-a-contest](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1633-percentage-of-users-attended-a-contest) |
+| [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
 ## Graph Theory
 |  |
 | ------- |
