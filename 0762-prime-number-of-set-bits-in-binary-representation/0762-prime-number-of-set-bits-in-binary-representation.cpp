@@ -1,14 +1,14 @@
 class Solution {
 public:
+vector<int>b={2,3,5,7,11,13,17,19};
     int countPrimeSetBits(int l, int r) {
         int cnt = 0;
         
         for(int i = l; i <= r; i++) {
-            int bits = __builtin_popcount(i);
-            
-            if(bits==2 || bits==3 || bits==5 || bits==7 ||
-               bits==11 || bits==13 || bits==17 || bits==19)
-                cnt++;
+           for(int j=0;j<b.size();j++)
+           {
+            if(__builtin_popcount(i)==b[j]) cnt++;
+           }
         }
         
         return cnt;
