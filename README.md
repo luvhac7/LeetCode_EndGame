@@ -909,6 +909,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0185-department-top-three-salaries](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0185-department-top-three-salaries) |
 | [0196-delete-duplicate-emails](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0196-delete-duplicate-emails) |
 | [0585-investments-in-2016](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0585-investments-in-2016) |
+| [0596-classes-with-at-least-5-students](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0596-classes-with-at-least-5-students) |
 | [0602-friend-requests-ii-who-has-the-most-friends](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0602-friend-requests-ii-who-has-the-most-friends) |
 | [0610-triangle-judgement](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0610-triangle-judgement) |
 | [0620-not-boring-movies](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0620-not-boring-movies) |
