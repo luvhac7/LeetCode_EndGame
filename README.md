@@ -919,6 +919,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1280-students-and-examinations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1280-students-and-examinations) |
 | [1321-restaurant-growth](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1321-restaurant-growth) |
 | [1633-percentage-of-users-attended-a-contest](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1633-percentage-of-users-attended-a-contest) |
+| [1667-fix-names-in-a-table](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1667-fix-names-in-a-table) |
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
 | [1789-primary-department-for-each-employee](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1789-primary-department-for-each-employee) |
 | [1907-count-salary-categories](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1907-count-salary-categories) |
