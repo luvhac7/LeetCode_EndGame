@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0226-invert-binary-tree) |
 | [0337-house-robber-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0337-house-robber-iii) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1382-balance-a-binary-search-tree) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0226-invert-binary-tree) |
 | [0337-house-robber-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0337-house-robber-iii) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1382-balance-a-binary-search-tree) |
@@ -664,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0337-house-robber-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0337-house-robber-iii) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1382-balance-a-binary-search-tree) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
