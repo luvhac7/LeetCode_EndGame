@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1390-four-divisors](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1390-four-divisors) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -342,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-squares-of-a-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1019-squares-of-a-sorted-array) |
 | [1200-minimum-absolute-difference](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1200-minimum-absolute-difference) |
 | [1288-remove-covered-intervals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1288-remove-covered-intervals) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
@@ -549,6 +551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0274-h-index) |
 | [0383-ransom-note](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0383-ransom-note) |
 | [0767-reorganize-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0767-reorganize-string) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2384-largest-palindromic-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2384-largest-palindromic-number) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
@@ -785,6 +788,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0868-binary-gap](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0868-binary-gap) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-binary-prefix-divisible-by-5) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
