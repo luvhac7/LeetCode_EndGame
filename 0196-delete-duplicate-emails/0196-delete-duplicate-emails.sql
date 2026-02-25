@@ -1,4 +1,9 @@
-# Write your MySQL query statement below
-delete p1
-from person p1
-inner join person p2 on p2.email=p1.email and p1.id>p2.id;
+delete from person
+where id not in(
+    select id from(
+    select id,
+    row_number() over(partition by email order by id) as rnk
+    from person
+)t
+where rnk=1
+);
