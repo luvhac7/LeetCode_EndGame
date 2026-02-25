@@ -925,6 +925,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0183-customers-who-never-order](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0183-customers-who-never-order) |
 | [0185-department-top-three-salaries](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0185-department-top-three-salaries) |
 | [0196-delete-duplicate-emails](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0196-delete-duplicate-emails) |
+| [0511-game-play-analysis-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0511-game-play-analysis-i) |
 | [0550-game-play-analysis-iv](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0550-game-play-analysis-iv) |
 | [0585-investments-in-2016](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0585-investments-in-2016) |
 | [0596-classes-with-at-least-5-students](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0596-classes-with-at-least-5-students) |
