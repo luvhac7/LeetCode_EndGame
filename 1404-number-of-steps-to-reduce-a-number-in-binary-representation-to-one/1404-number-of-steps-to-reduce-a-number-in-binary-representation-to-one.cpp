@@ -1,14 +1,14 @@
 class Solution {
 public:
     int numSteps(string s) {
-        int st=0,car=0;
+        int sv=0,c=0;
         int n=s.size();
         for(int i=n-1;i>0;i--)
         {
             int b=s[i]&1;
-            st+=1+(b^car);
-            car|=b;
+            sv+=1+(b^c);
+            c|=b;
         }
-        return st+car;
+        return sv+c;
     }
 };
