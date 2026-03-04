@@ -5,10 +5,10 @@ void dfs(int i,int j,vector<vector<char>>&a)
     int n=a.size(),m=a[0].size();
     if(i<0||j<0||i>=n||j>=m||a[i][j]=='0') return;
     a[i][j]='0';
-    dfs(i-1,j,a);
-    dfs(i+1,j,a);
-    dfs(i,j-1,a);
-    dfs(i,j+1,a);
+    dfs(i-1,j,a);//up
+    dfs(i+1,j,a);//down
+    dfs(i,j-1,a);//left
+    dfs(i,j+1,a);//right
 }
     int numIslands(vector<vector<char>>& a) {
         int is=0;
