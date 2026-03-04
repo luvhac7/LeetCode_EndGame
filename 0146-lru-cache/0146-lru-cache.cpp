@@ -1,34 +1,65 @@
+class Node{
+    public:
+    int key,value;
+    Node* prev;
+    Node* next;
+    Node(int key,int value):key(key),value(value),prev(nullptr),next(nullptr){}
+};
 class LRUCache {
+private:
+    int cap;
+    unordered_map<int,Node*>mp;
+    Node* head;
+    Node* tail;
+    void rem(Node* node)
+    {
+        node->prev->next=node->next;
+        node->next->prev=node->prev;
+    }
+    void insert(Node* node)
+    {
+        node->next=head->next;
+        node->prev=head;
+        head->next->prev=node;
+        head->next=node;
+    }
 public:
-    list<pair<int,int>>l;
-    unordered_map<int,list<pair<int,int>>::iterator>m;
-    int size;
-    LRUCache(int capacity) {
-        size=capacity;
+    LRUCache(int cap) {
+    this->cap=cap;
+    head=new Node(0,0);
+    tail=new Node(0,0);
+    head->next=tail;
+    tail->prev=head;
     }
     
     int get(int key) {
-        if(m.find(key)==m.end())
-            return -1;
-        l.splice(l.begin(),l,m[key]);
-        return m[key]->second;
+        if(mp.find(key)!=mp.end())
+        {
+            Node* node=mp[key];
+            rem(node);
+            insert(node);
+            return node->value;
+        }
+        return -1;
     }
     
-    void put(int key, int value) {
-        if(m.find(key)!=m.end())
+    void put(int key, int val) {
+        if(mp.find(key)!=mp.end())
         {
-            l.splice(l.begin(),l,m[key]);
-            m[key]->second=value;
-            return;
-        }
-        if(l.size()==size)
+Node* node=mp[key];
+rem(node);
+mp.erase(key);
+delete node;        }
+        if(mp.size()==cap)
         {
-            auto d_key=l.back().first;
-            l.pop_back();
-            m.erase(d_key);
+            Node* lru=tail->prev;
+            mp.erase(lru->key);
+            rem(lru);
+            delete lru;
         }
-        l.push_front({key,value});
-        m[key]=l.begin();
+        Node* node=new Node(key,val);
+        insert(node);
+        mp[key]=node;
     }
 };
 
