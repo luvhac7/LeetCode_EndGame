@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1382-balance-a-binary-search-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Binary Search Tree
@@ -249,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1382-balance-a-binary-search-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Math
 |  |
 | ------- |
@@ -703,6 +705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1382-balance-a-binary-search-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2092-find-all-people-with-secret) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2872-maximum-number-of-k-divisible-components) |
@@ -720,6 +723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0994-rotting-oranges](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0994-rotting-oranges) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2092-find-all-people-with-secret) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
