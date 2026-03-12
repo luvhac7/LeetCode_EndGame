@@ -1,97 +1,101 @@
 class Solution {
 public:
-    int maxStability(int n, vector<vector<int>>& edges, int k) {
-        vector<int> parent(n);
-        for (int i = 0; i < n; i++) {
-            parent[i] = i;
-        }
+    vector<int> parents, rankv;
 
-        auto find = [&](int i) {
-            while (i != parent[i]) {
-                parent[i] = parent[parent[i]];
-                i = parent[i];
-            }
-            return i;
-        };
+    int find_par(int u) {
+        if (parents[u] == u) return u;
+        return parents[u] = find_par(parents[u]);
+    }
 
-        int minM = INT_MAX;
-        int compCount = n;
+    void dsu_union(int u, int v) {
+        u = find_par(u);
+        v = find_par(v);
+        if (u == v) return;
+        if (rankv[u] < rankv[v]) swap(u, v);
+        parents[v] = u;
+        if (rankv[u] == rankv[v]) rankv[u]++;
+    }
 
-        for (const auto& e : edges) {
+    bool solve(vector<vector<int>>& edges, int k, int mid, int n) {
+        priority_queue<tuple<int,int,int>> pq;
+
+        // ---- mandatory edges ----
+        for (auto &e : edges) {
             if (e[3] == 1) {
-                int ru = find(e[0]);
-                int rv = find(e[1]);
-                if (ru == rv) return -1;
-                parent[ru] = rv;
-                compCount--;
-                if (e[2] < minM) minM = e[2];
+                pq.push({e[2], e[0], e[1]});
             }
         }
 
-        vector<uint64_t> opt;
-        opt.reserve(edges.size());
+        int cnt = 0;
 
-        for (const auto& e : edges) {
+        while (!pq.empty()) {
+            auto [s, u, v] = pq.top();
+            pq.pop();
+
+            if (s < mid) return false;
+            if (find_par(u) == find_par(v)) return false;
+
+            dsu_union(u, v);
+            cnt++;
+        }
+
+        if (cnt == n - 1) return true;
+
+        // ---- optional edges ----
+        while (!pq.empty()) pq.pop();
+
+        for (auto &e : edges) {
             if (e[3] == 0) {
-                int ru = find(e[0]);
-                int rv = find(e[1]);
-                if (ru != rv) {
-                    // Packing: weight (30 bits) | ru (17 bits) | rv (17 bits)
-                    opt.push_back(((uint64_t)e[2] << 34) | ((uint64_t)ru << 17) | (uint32_t)rv);
-                }
+                pq.push({e[2], e[0], e[1]});
             }
         }
 
-        if (compCount == 1) return minM;
+        while (!pq.empty()) {
+            auto [s, u, v] = pq.top();
+            pq.pop();
 
-        // Radix Sort
-        if (opt.size() > 1) {
-            vector<uint64_t> temp(opt.size());
-            int count[256];
-            for (int shift = 34; shift < 64; shift += 8) {
-                memset(count, 0, sizeof(count));
-                for (size_t i = 0; i < opt.size(); i++) {
-                    count[(opt[i] >> shift) & 0xFF]++;
-                }
-                for (int i = 1; i < 256; i++) {
-                    count[i] += count[i - 1];
-                }
-                for (int i = (int)opt.size() - 1; i >= 0; i--) {
-                    temp[--count[(opt[i] >> shift) & 0xFF]] = opt[i];
-                }
-                opt.swap(temp);
-            }
-        }
+            if (find_par(u) == find_par(v)) continue;
 
-        vector<int> upg;
-        upg.reserve(compCount - 1);
-
-        for (int i = (int)opt.size() - 1; i >= 0; i--) {
-            uint64_t packed = opt[i];
-            int ru = find((packed >> 17) & 0x1FFFF);
-            int rv = find(packed & 0x1FFFF);
-            
-            if (ru != rv) {
-                parent[ru] = rv;
-                upg.push_back(packed >> 34);
-                compCount--;
-                if (compCount == 1) break;
-            }
-        }
-
-        if (compCount > 1) return -1;
-
-        for (int i = (int)upg.size() - 1; i >= 0; i--) {
-            if (k > 0) {
-                k--;
-                int upgraded = upg[i] << 1;
-                if (upgraded < minM) minM = upgraded;
+            if (s >= mid) {
+                // use without upgrade
             } else {
-                if (upg[i] < minM) minM = upg[i];
-                break;
+                if (2LL * s < mid) continue;
+                if (k == 0) continue;
+                k--; // use upgrade
             }
+
+            dsu_union(u, v);
+            cnt++;
+
+            if (cnt == n - 1) return true;
         }
 
-        return minM;
+        return false;
+    }
+
+    int maxStability(int n, vector<vector<int>>& edges, int k) {
+        int lo = INT_MAX, hi = 0;
+        for (auto &e : edges) {
+            lo = min(lo, e[2]);
+            hi = max(hi, e[2] * 2);
+        }
+
+        int ans = -1;
+
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+
+            parents.assign(n, 0);
+            rankv.assign(n, 0);
+            for (int i = 0; i < n; i++) parents[i] = i;
+
+            if (solve(edges, k, mid, n)) {
+                ans = mid;
+                lo = mid + 1;
+            } else {
+                hi = mid - 1;
+            }
+        }
+        return ans;
     }
 };
