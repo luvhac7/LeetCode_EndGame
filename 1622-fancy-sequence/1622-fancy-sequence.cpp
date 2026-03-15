@@ -1,31 +1,32 @@
 class Fancy {
+typedef long long ll;
 public:
-    vector<long long> sequence;
+    vector<ll>s;
 
     Fancy() {
-        sequence.clear();
+        s.clear();
     }
     
     void append(int val) {
-        sequence.push_back(val);
+        s.push_back(val);
     }
     
     void addAll(int inc) {
-        for(auto& val : sequence) {
+        for(auto& val : s) {
             val += inc;
         }
     }
     
     void multAll(int m) {
-        for(auto& val : sequence) {
+        for(auto& val : s) {
             val *= m;
             val %= (int)(1e9 + 7);
         }
     }
     
     int getIndex(int idx) {
-        if(sequence.size() > idx) {
-            return (sequence[idx] % (int)(1e9 + 7));
+        if(s.size() > idx) {
+            return (s[idx] % (int)(1e9 + 7));
         } else {
             return -1;
         }
