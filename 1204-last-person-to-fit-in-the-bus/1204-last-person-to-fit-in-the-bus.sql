@@ -1,7 +1,9 @@
-select person_name from(
-    select person_name,sum(weight) oveR(order by turn)as tw
+with cte as(
+    select person_name,
+    sum(weight) oveR(order by turn) as x
     from queue
-)as cs
-where tw<=1000
-order by tw desc
+)
+select person_name from cte
+where x<=1000
+order by x desc
 limit 1;
