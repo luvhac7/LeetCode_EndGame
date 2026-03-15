@@ -1,41 +1,36 @@
-typedef long long ll;
 class Fancy {
 public:
-    vector<int> v;
-    ll sum = 0;
-    ll mul = 1;
-    ll mod = 1e9 + 7;
-    ll power(ll base, ll exp) {
-        ll ans = 1;
-        base %= mod;
-        while (exp) {
-            if (exp & 1)
-                ans = (ans * base) % mod;
-            exp /= 2;
-            base = (base * base) % mod;
-        }
-        return ans;
+    vector<long long> sequence;
+
+    Fancy() {
+        sequence.clear();
     }
-    ll modInverse(ll n) { return power(n, mod - 2); }
-    Fancy() {}
+    
     void append(int val) {
-        ll temp = val;
-        // temp=(a*mul+sum)
-        ll base = ((temp - sum + mod) % mod * modInverse(mul)) % mod;
-        v.push_back(base);
+        sequence.push_back(val);
     }
-    void addAll(int inc) { sum = (sum + inc) % mod; }
+    
+    void addAll(int inc) {
+        for(auto& val : sequence) {
+            val += inc;
+        }
+    }
+    
     void multAll(int m) {
-        mul = (mul * m) % mod;
-        sum = (sum * m) % mod;
+        for(auto& val : sequence) {
+            val *= m;
+            val %= (int)(1e9 + 7);
+        }
     }
+    
     int getIndex(int idx) {
-        if (idx >= v.size())
+        if(sequence.size() > idx) {
+            return (sequence[idx] % (int)(1e9 + 7));
+        } else {
             return -1;
-        return (v[idx] * mul + sum) % mod;
+        }
     }
 };
-
 
 /**
  * Your Fancy object will be instantiated and called as such:
