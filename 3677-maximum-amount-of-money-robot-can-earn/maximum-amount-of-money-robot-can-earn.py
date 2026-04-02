@@ -1,26 +1,28 @@
 class Solution:
-  def maximumAmount(self, coins: list[list[int]]) -> int:
-    m = len(coins)
-    n = len(coins[0])
-    # dp[i][j][k] := the maximum profit at position (i, j) with k remaining
-    # neutralizations
-    dp = [[[-math.inf] * 4 for _ in range(n)] for _ in range(m)]
+    def maximumAmount(self, coins: List[List[int]]) -> int:
+        rows,cols = len(coins),len(coins[0])
+        @cache
+        def dfs(r,c,count):
+            if r == rows or c == cols:
+                return float("-inf")
+            val = coins[r][c]
 
-    # Base case: the robot starts at the top-left corner.
-    dp[0][0][2] = coins[0][0]
-    if coins[0][0] < 0:
-      dp[0][0][1] = 0  # Neutralize the robber.
+            if r == rows -1 and c == cols - 1:
+                if val >= 0:
+                    return val
+                else:
+                    if count < 2:
+                        return 0
+                    else:
+                        return val
+            res = float("-inf")
+            res = max(res,dfs(r + 1,c,count) + val)
+            res = max(res,dfs(r,c + 1,count) + val)
 
-    for i in range(m):
-      for j in range(n):
-        for k in range(3):  # for each number of remaining neutralizations
-          if i > 0:
-            dp[i][j][k] = max(dp[i][j][k],
-                              dp[i - 1][j][k] + coins[i][j],
-                              dp[i - 1][j][k + 1])
-          if j > 0:
-            dp[i][j][k] = max(dp[i][j][k],
-                              dp[i][j - 1][k] + coins[i][j],
-                              dp[i][j - 1][k + 1])
-
-    return max(dp[-1][-1])
+            if val < 0 and count < 2:
+                res = max(res,dfs(r,c + 1,count + 1) + 0)
+                res = max(res,dfs(r + 1,c,count + 1) + 0)
+            return res
+        r = dfs(0,0,0)
+        dfs.cache_clear()
+        return r
