@@ -1,64 +1,51 @@
+
 class Solution {
 public:
     int maxWalls(vector<int>& robots, vector<int>& distance,
                  vector<int>& walls) {
         int n = robots.size();
-        int pos1, pos2, pos3, leftPos, rightPos;
-        vector<int> left(n, 0), right(n, 0), num(n, 0);
-        unordered_map<int, int> robotsToDistance;
+        vector<pair<int, int>> arr(n);
         for (int i = 0; i < n; i++) {
-            robotsToDistance[robots[i]] = distance[i];
+            arr[i] = {robots[i], distance[i]};
         }
-        sort(robots.begin(), robots.end());
-        sort(walls.begin(), walls.end());
-        for (int i = 0; i < n; i++) {
-            pos1 = upper_bound(walls.begin(), walls.end(), robots[i]) -
-                   walls.begin();
-            if (i >= 1) {
-                leftPos =
-                    lower_bound(walls.begin(), walls.end(),
-                                max(robots[i] - robotsToDistance[robots[i]],
-                                    robots[i - 1] + 1)) -
-                    walls.begin();
-            } else {
-                leftPos = lower_bound(walls.begin(), walls.end(),
-                                      robots[i] - robotsToDistance[robots[i]]) -
-                          walls.begin();
+        ranges::sort(arr, {}, &pair<int, int>::first);
+        ranges::sort(walls);
+
+        vector f(n, vector<int>(2, -1));
+
+        auto dfs = [&](this auto&& dfs, int i, int j) -> int {
+            if (i < 0) {
+                return 0;
             }
-            left[i] = pos1 - leftPos;
-            if (i < n - 1) {
-                rightPos =
-                    upper_bound(walls.begin(), walls.end(),
-                                min(robots[i] + robotsToDistance[robots[i]],
-                                    robots[i + 1] - 1)) -
-                    walls.begin();
-            } else {
-                rightPos =
-                    upper_bound(walls.begin(), walls.end(),
-                                robots[i] + robotsToDistance[robots[i]]) -
-                    walls.begin();
+            if (f[i][j] != -1) {
+                return f[i][j];
             }
-            pos2 = lower_bound(walls.begin(), walls.end(), robots[i]) -
-                   walls.begin();
-            right[i] = rightPos - pos2;
-            if (i == 0) {
-                continue;
+
+            int left = arr[i].first - arr[i].second;
+            if (i > 0) {
+                left = max(left, arr[i - 1].first + 1);
             }
-            pos3 = lower_bound(walls.begin(), walls.end(), robots[i - 1]) -
-                   walls.begin();
-            num[i] = pos1 - pos3;
-        }
-        int subLeft, subRight, currentLeft, currentRight;
-        subLeft = left[0];
-        subRight = right[0];
-        for (int i = 1; i < n; i++) {
-            currentLeft =
-                max(subLeft + left[i], subRight - right[i - 1] +
-                                           min(left[i] + right[i - 1], num[i]));
-            currentRight = max(subLeft + right[i], subRight + right[i]);
-            subLeft = currentLeft;
-            subRight = currentRight;
-        }
-        return max(subLeft, subRight);
+            int l = ranges::lower_bound(walls, left) - walls.begin();
+            int r =
+                ranges::lower_bound(walls, arr[i].first + 1) - walls.begin();
+            int ans = dfs(i - 1, 0) + (r - l);
+
+            int right = arr[i].first + arr[i].second;
+            if (i + 1 < n) {
+                if (j == 0) {
+                    right =
+                        min(right, arr[i + 1].first - arr[i + 1].second - 1);
+                } else {
+                    right = min(right, arr[i + 1].first - 1);
+                }
+            }
+            l = ranges::lower_bound(walls, arr[i].first) - walls.begin();
+            r = ranges::lower_bound(walls, right + 1) - walls.begin();
+            ans = max(ans, dfs(i - 1, 1) + (r - l));
+
+            return f[i][j] = ans;
+        };
+
+        return dfs(n - 1, 1);
     }
 };
