@@ -1,26 +1,29 @@
 class Solution {
 public:
-vector<vector<int>>f( vector<vector<int>>&a)
-{
-    sort(a.begin(),a.end());
-    vector<vector<int>>ans;
-    ans.push_back(a[0]);
-    for(int i=1;i<a.size();i++)
-    {
-        vector<int>&cur=a[i];
-        vector<int>&end=ans.back();
-        if(cur[0]<=end[1])
-        {
-            end[1]=max(end[1],cur[1]);
+    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
+        vector<vector<int>> res;
+        int i = 0, n = intervals.size();
+
+        // 1. LEFT (no overlap)
+        while(i < n && intervals[i][1] < newInterval[0]){
+            res.push_back(intervals[i]);
+            i++;
         }
-        else{
-            ans.push_back(cur);
+
+        // 2. MERGE ZONE
+        while(i < n && intervals[i][0] <= newInterval[1]){
+            newInterval[0] = min(newInterval[0], intervals[i][0]);
+            newInterval[1] = max(newInterval[1], intervals[i][1]);
+            i++;
         }
-    }
-    return ans;
-}
-    vector<vector<int>> insert(vector<vector<int>>& in, vector<int>& nin) {
-        in.push_back(nin);
-        return f(in);
+        res.push_back(newInterval);
+
+        // 3. RIGHT (no overlap)
+        while(i < n){
+            res.push_back(intervals[i]);
+            i++;
+        }
+
+        return res;
     }
 };
