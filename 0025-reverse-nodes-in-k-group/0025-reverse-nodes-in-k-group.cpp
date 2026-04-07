@@ -10,46 +10,35 @@
  */
 class Solution {
 public:
-typedef ListNode ll;
-//reverse
-ll* rev(ll* head,ll* tail)
-{
-ll* prev=nullptr;
-ll* cur=head;
-while(cur!=tail)
-{
-    ll* nxt=cur->next;
-    cur->next=prev;
-    prev=cur;
-    cur=nxt;
-}
-return  prev;
-}
-
+typedef ListNode l;
     ListNode* reverseKGroup(ListNode* head, int k) {
-      if(!head||k==1) return head;
-      ll* dum=new ll(0);
-      dum->next=head;
-      ll* pre=dum;
-      while(pre)
-      { 
-        ll* cur=pre;
-        for(int i=0;i<k;i++)
-        {
-            if(cur->next==nullptr)
-            {
-                return dum->next;
-            }
-            cur=cur->next;
-        }
-        ll* node=pre->next;
-        ll* nxt=cur->next;
-        cur->next=nullptr;
-        ll* revhead=rev(node,nullptr);
-        pre->next=revhead;
-        node->next=nxt;
-        pre=node;
-      }
-      return dum->next;
+        return f(head,k);
     }
+   private:
+        l* f(l* head,int k)
+        {
+            if(!head) return nullptr;
+            l* tail=head;
+            for(int i=0;i<k;i++){
+                if(tail==nullptr)
+                    return head;
+                tail=tail->next;
+        }
+        l* newi=reverse(head,tail);
+        head->next=f(tail,k);
+        return newi;
+        }
+        l* reverse(l* head,l* tail)
+        {
+            l* prev=nullptr;
+            l* cur=head;
+            while(cur!=tail)
+            {
+                l* next=cur->next;
+                cur->next=prev;
+                prev=cur;
+                cur=next;
+            }
+            return prev;
+        }
 };
