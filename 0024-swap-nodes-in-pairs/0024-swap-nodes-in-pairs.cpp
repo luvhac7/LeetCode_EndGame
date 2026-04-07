@@ -10,14 +10,36 @@
  */
 class Solution {
 public:
-    void swapp(ListNode* head)
-    {
-        if(!head || !head->next) return;
-        swap(head->val,head->next->val);
-        swapp(head->next->next);
-    }
+typedef ListNode l;
     ListNode* swapPairs(ListNode* head) {
-        swapp(head);
-        return head;
+        return f(head);
     }
+
+    private:
+    l* f(l* head)
+    {
+        int len=getlen(head);
+        l dum(0,head);
+        l* prev=&dum;
+        l*curr=head;
+        for(int i=0;i<len/2;i++)
+        {
+            l* next=curr->next;
+            curr->next=next->next;
+            next->next=prev->next;
+            prev->next=next;
+            prev=curr;
+            curr=curr->next;
+        }
+        return dum.next;
+    }
+        int getlen(l* head)
+        {
+            int len=0;
+            for(l*cur=head;cur;cur=cur->next)
+            {
+                len++;
+            }
+            return len;
+        }
 };
