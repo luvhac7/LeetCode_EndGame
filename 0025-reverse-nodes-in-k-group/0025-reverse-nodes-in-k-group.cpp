@@ -20,7 +20,7 @@ typedef ListNode l;
             if(!head) return nullptr;
             l* tail=head;
             for(int i=0;i<k;i++){
-                if(tail==nullptr)
+                if(!tail)
                     return head;
                 tail=tail->next;
         }
