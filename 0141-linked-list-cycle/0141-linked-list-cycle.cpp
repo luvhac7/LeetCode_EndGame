@@ -9,15 +9,14 @@
 class Solution {
 public:
 typedef ListNode L;
-    bool hasCycle(ListNode *h) {
-        if(!h) return false;
-        L* t=h;
-        L* p=h;
-        while(p && p->next)
+    bool hasCycle(ListNode *head) {
+        if(!head) return false;
+        L* x=head;
+        L* y=head;
+        while(x &&  x->next)
         {
-            p=p->next->next;
-            t=t->next;
-            if(p==t) return true;
+            y=y->next;x=x->next->next;
+            if(x==y) return true;
         }
         return false;
     }
