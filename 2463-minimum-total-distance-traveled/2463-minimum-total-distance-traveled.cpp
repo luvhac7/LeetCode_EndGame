@@ -1,37 +1,38 @@
 class Solution {
 public:
-    long long dp[100][100][100];
-    long long f(int i, int j, int k, vector<int>& robot,
-                vector<vector<int>>& factory) {
-        if (i < 0)
-            return 0;
-        if (j < 0)
-            return 1LL << 40;
-        if (dp[i][j][k] != -1)
-            return dp[i][j][k];
-        int xR = robot[i], xF = factory[j][0];
-        long long otherFactory = f(i, j - 1, 0, robot, factory);
-        long long factoryJ =
-            (k < factory[j][1])
-                ? abs(xR - xF) + f(i - 1, j, k + 1, robot, factory)
-                : 1LL << 40;
-        return dp[i][j][k] = min(otherFactory, factoryJ);
-    }
-
-    long long minimumTotalDistance(vector<int>& robot,
-                                   vector<vector<int>>& factory) {
+    long long minimumTotalDistance(vector<int>& robot, vector<vector<int>>& factory) {
         sort(robot.begin(), robot.end());
         sort(factory.begin(), factory.end());
-
+        
         int n = robot.size(), m = factory.size();
-        memset(dp, -1, sizeof(dp));
-        return f(n - 1, m - 1, 0, robot, factory);
+
+        robot.insert(robot.begin(), 0);
+        factory.insert(factory.begin(), {0, 0});
+
+        vector<vector<long long>> f = vector(200, vector<long long>(200, 1e18 + 7));
+
+        for (int i = 0; i <= m; i++) {
+            f[0][i] = 0;
+        }
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
+                int pos = factory[j][0], limit = factory[j][1];
+
+                for (int k = 0; k <= min(i, limit); k++) {
+                    long long mark1 = 0;
+                    
+                    for (int l = i - k + 1; l <= i; l++) {
+                        mark1 += abs(robot[l] - pos);
+                        // cout << i << ' ' << j << ' ' << k << ' ' << l << ' ' << mark1 << "\n";
+                    }
+
+                    f[i][j] = min(f[i][j], f[i - k][j - 1] + mark1);
+                    // cout << i << ' ' << j << ' ' << k << ' ' << i - k << ' ' << j - 1 << "\n" << f[i][j] << ' ' << f[i - k][j - 1] << ' ' << mark1 << "\n\n";
+                }
+            }
+        }
+        
+        return f[n][m];
     }
 };
-
-    auto init = []() {
-        ios::sync_with_stdio(0);
-        cin.tie(0);
-        cout.tie(0);
-        return 'c';
-    }();
