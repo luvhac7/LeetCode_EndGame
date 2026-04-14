@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
+| [2463-minimum-total-distance-traveled](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2463-minimum-total-distance-traveled) |
 | [2560-house-robber-iv](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2560-house-robber-iv) |
 | [2573-find-the-string-with-lcp](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2573-find-the-string-with-lcp) |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2588-count-the-number-of-beautiful-subarrays) |
@@ -395,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2386-find-the-k-sum-of-an-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2386-find-the-k-sum-of-an-array) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
+| [2463-minimum-total-distance-traveled](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2463-minimum-total-distance-traveled) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3025-find-the-number-of-ways-to-place-people-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3025-find-the-number-of-ways-to-place-people-i) |
 | [3074-apple-redistribution-into-boxes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3074-apple-redistribution-into-boxes) |
@@ -586,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2222-number-of-ways-to-select-buildings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2222-number-of-ways-to-select-buildings) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
+| [2463-minimum-total-distance-traveled](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2463-minimum-total-distance-traveled) |
 | [2560-house-robber-iv](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2560-house-robber-iv) |
 | [2573-find-the-string-with-lcp](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2573-find-the-string-with-lcp) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2977-minimum-cost-to-convert-string-ii) |
