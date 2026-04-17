@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3719-longest-balanced-subarray-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3721-longest-balanced-subarray-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3804-number-of-centered-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3804-number-of-centered-subarrays) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3623-count-number-of-trapezoids-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3676-smallest-number-with-all-set-bits) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
 ## Greedy
 |  |
@@ -523,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3719-longest-balanced-subarray-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3721-longest-balanced-subarray-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3804-number-of-centered-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3804-number-of-centered-subarrays) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
