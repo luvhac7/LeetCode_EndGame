@@ -1,55 +1,72 @@
 class Solution {
 public:
     int maxDistance(int side, vector<vector<int>>& points, int k) {
-        vector<long long> res;
+        vector<long long> arr;
+
         for (auto& p : points) {
             int x = p[0], y = p[1];
-            if (x == 0) res.push_back(y);
-            else if (y == side) 
-                res.push_back((long long)side + x);
-            else if (x == side) 
-                res.push_back((long long)side * 3 - y);
-            else res.push_back((long long)side * 4 - x);
+
+            if (x == 0) arr.push_back(y);
+            else if (y == side) arr.push_back(1LL * side + x);
+            else if (x == side) arr.push_back(3LL * side - y);
+            else arr.push_back(4LL * side - x);
         }
-        sort(res.begin(), res.end());
 
-        auto check = [&](int n) {
-            int m = res.size();
-            vector<int> idx(k);
-            long long curr = res[0];
-            idx[0] = 0;
-            for (int i = 1; i < k; i++) {
-                auto it = lower_bound(res.begin(), res.end(), curr + n);
-                if (it == res.end()) 
-                    return false;
-                idx[i] = distance(res.begin(), it);
-                curr = *it;
+        sort(arr.begin(), arr.end());
+
+        long long low = 1, high = 2LL * side;
+        int ans = 0;
+
+        while (low <= high) {
+            long long mid = low + (high - low) / 2;
+
+            if (isValid(arr, side, k, mid)) {
+                ans = (int)mid;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
             }
-            if (res[idx[k - 1]] - res[0] <= (long long)side * 4 - n) 
-                return true;
+        }
 
-            for (idx[0] = 1; idx[0] < idx[1]; idx[0]++) {
-                for (int j = 1; j < k; j++) {
-                    while (idx[j] < m && res[idx[j]] < res[idx[j - 1]] + n) {
-                        idx[j]++;
-                    }
-                    if (idx[j] == m) 
-                        return false;
+        return ans;
+    }
+
+    bool isValid(vector<long long>& arr, int side, int k, long long dist) {
+        long long peri = 4LL * side;
+
+        for (int i = 0; i < arr.size(); i++) {
+            long long start = arr[i];
+            long long end = start + peri - dist;
+
+            for (int j = 0; j < k - 1; j++) {
+                int next = lower(arr, start + dist);
+
+                if (next >= arr.size() || arr[next] > end) {
+                    start = -1;
+                    break;
                 }
-                if (res[idx[k - 1]] - res[idx[0]] <= (long long)side * 4 - n) 
-                    return true;
-            }
-            return false;
-        };
 
-        int left = 1;
-        int right = (1LL * side * 4) / k + 1;
-        while (left + 1 < right) {
-            int mid = left + (right - left) / 2;
-            if (check(mid)) 
-                left = mid;
-            else right = mid;
+                start = arr[next];
+            }
+
+            if (start >= 0) return true;
         }
-        return left;
+
+        return false;
+    }
+
+    int lower(vector<long long>& arr, long long target) {
+        int low = 0, high = arr.size();
+
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+
+            if (arr[mid] < target)
+                low = mid + 1;
+            else
+                high = mid;
+        }
+
+        return low;
     }
 };
