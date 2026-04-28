@@ -2,34 +2,31 @@ class Solution {
 public:
     int minOperations(vector<vector<int>>& grid, int x) {
         int n = grid.size(), m = grid[0].size();
-        int N = n * m;
-        int freq[10001] = {0};
-        int mn = grid[0][0], mx = mn;
+        vector<int> nums;
+        nums.reserve(n * m);
 
-        for (const auto& row : grid) {
-            for (int val : row) {
-                if ((val - grid[0][0]) % x != 0) return -1;
-                freq[val]++;
-                mn = min(mn, val);
-                mx = max(mx, val);
+        for(int i = 0; i < n; ++i)
+        {
+            for(int j = 0; j < m; ++j)
+            {
+                int curr = grid[i][j];
+                nums.push_back(curr);
             }
         }
 
-        int target = (N + 1) / 2;
-        int acc = 0, median = mn;
+        std::sort(nums.begin(), nums.end());
+        int mid = nums.size() / 2;
+        int count = 0;
+        int prev = nums[0];
+        for(int i = 0; i < nums.size(); ++i)
+        {
+            if(i > 0 && abs(nums[i] - prev) % x > 0)
+                return -1;
 
-        for (int i = mn; i <= mx; i += x) {
-            acc += freq[i];
-            if (acc >= target) {
-                median = i;
-                break;
-            }
+            count += (abs(nums[mid] - nums[i]) / x);
+            prev = nums[i];
         }
-
-        int ops = 0;
-        for (int i = mn; i <= mx; i += x)
-            ops += abs(i - median) / x * freq[i];
-
-        return ops;
+        
+        return count;
     }
 };
