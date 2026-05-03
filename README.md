@@ -706,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0756-pyramid-transition-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0756-pyramid-transition-matrix) |
 | [0761-special-binary-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0761-special-binary-string) |
 | [0767-reorganize-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0767-reorganize-string) |
+| [0796-rotate-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0796-rotate-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0944-delete-columns-to-make-sorted](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0955-delete-columns-to-make-sorted-ii) |
@@ -1125,4 +1126,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0207-course-schedule) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
