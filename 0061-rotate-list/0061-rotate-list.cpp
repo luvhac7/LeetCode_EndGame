@@ -10,36 +10,41 @@
  */
 class Solution {
 public:
+typedef ListNode l;
     ListNode* rotateRight(ListNode* head, int k) {
-       if(!head || !head->next || k == 0)
+        // if(!head || !head->next || k==0) return head;
+        // l* tail;
+        // int len=1;
+        // for(tail=head;tail->next;tail=tail->next)
+        //     ++len;
+        // tail->next=head;//circle bna
+        // int t=len-k%len;//us possition jispe rotaion karna h usko nikklo
+
+        // for(int i=0;i<t;i++)
+        //     tail=tail->next;
+        // l* newi=tail->next;
+        // tail->next=nullptr;
+        // return newi;
+        return f(head,k);
+    }
+private:
+    l* f(l* head,int k)
+    {
+        if(!head||k==0 ||!head->next)
+        {
             return head;
-
-        vector<int> x;
-        ListNode* t = head;
-
-        while(t) {
-            x.push_back(t->val);
-            t = t->next;
         }
+        l* tail;int x=1;
+        for(tail=head;tail->next;tail=tail->next)
+            ++x;
+        tail->next=head;
+        int t=x-k%x;
+        for(int i=0;i<t;i++)
+            tail=tail->next;
+        l* ans=tail->next;
+        tail->next=nullptr;
+        return ans;
 
-        int n = x.size();
-        k = k % n;          
-        if(k == 0) return head;
-
-        vector<int> v;
-                for(int i = n - k; i < n; i++)
-            v.push_back(x[i]);
-        for(int i = 0; i < n - k; i++)
-            v.push_back(x[i]);
-
-        ListNode* dum = new ListNode(0);
-        ListNode* cur = dum;
-
-        for(int val : v) {
-            cur->next = new ListNode(val);
-            cur = cur->next;
-        }
-
-        return dum->next;
+        
     }
 };
