@@ -1,15 +1,15 @@
 class Solution {
 public:
-    int totalWaviness(int a, int b) {
-        int r=0;
-        for(int x=a;x<=b;x++)
+    int totalWaviness(int x, int y) {
+        int o=0;
+        for(int i=x;i<=y;i++)
         {
-            string s=to_string(x);
-            for(int i=1;i+1<s.size();i++)
+            string l=to_string(i);
+            for(int j=1;j+1<l.size();j++)
             {
-                if((s[i]<s[i-1]&&s[i]<s[i+1])||(s[i]>s[i+1]&&s[i]>s[i-1])) r++;
+        if((l[j]<l[j-1]&&l[j]<l[j+1])||(l[j]>l[j-1]&&l[j]>l[j+1])) o++;
             }
         }
-        return r;
+        return o;
     }
 };
