@@ -345,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3625-count-number-of-trapezoids-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+| [3753-total-waviness-of-numbers-in-range-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
 ## Greedy
@@ -643,6 +644,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3660-jump-game-ix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3660-jump-game-ix) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+| [3753-total-waviness-of-numbers-in-range-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 ## Combinatorics
 |  |
 | ------- |
