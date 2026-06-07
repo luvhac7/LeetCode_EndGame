@@ -1,16 +1,17 @@
 class Solution {
 public:
-    int maxArea(vector<int>& h) {
-        int l=0,r=h.size()-1;
-        int maxi=0;
-        while(l<r)
+    int maxArea(vector<int>& a) {
+        int x=0,y=a.size()-1;
+        int ans=0;
+        while(x<y)
         {
-            int mid=r-l;
-            int cm=min(h[l],h[r]);
-            maxi=max(maxi,mid*cm);
-            if(h[l]<h[r]) l++;
-            else r--;
+            int bich=y-x;
+            int cur=min(a[x],a[y]);
+            cout<<cur<<" "<<bich<<" ";
+            ans=max(ans,bich*cur);
+            if(a[x]<a[y]) x++;
+            else y--;
         }
-        return maxi;
+        return ans;
     }
 };
