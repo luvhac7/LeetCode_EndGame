@@ -1,18 +1,16 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& a, int t) {
-        int n=a.size();
-        unordered_map<int,int>mp;
-        for(int i=0;i<n;i++)
+        unordered_map<int,int>f;
+        for(int i=0;i<a.size();i++)
         {
-            int x=t-a[i];
-            if(mp.find(x)!=mp.end())
+            int res=t-a[i];
+            if(f.find(res)!=f.end())
             {
-                return {mp[x],i};
+                return {f[res],i};
             }
-            mp[a[i]]=i;
+            f[a[i]]=i;
         }
-        return {-1,-1};
-        
+        return {};
     }
 };
