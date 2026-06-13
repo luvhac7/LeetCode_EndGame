@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3804-number-of-centered-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3804-number-of-centered-subarrays) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
+| [3952-maximum-total-value-of-covered-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3952-maximum-total-value-of-covered-indices) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
+| [3952-maximum-total-value-of-covered-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3952-maximum-total-value-of-covered-indices) |
 ## Sorting
 |  |
 | ------- |
@@ -645,6 +647,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
+| [3952-maximum-total-value-of-covered-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3952-maximum-total-value-of-covered-indices) |
 ## Combinatorics
 |  |
 | ------- |
@@ -771,6 +774,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3713-longest-balanced-substring-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3714-longest-balanced-substring-ii) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
+| [3952-maximum-total-value-of-covered-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3952-maximum-total-value-of-covered-indices) |
 ## Simulation
 |  |
 | ------- |
