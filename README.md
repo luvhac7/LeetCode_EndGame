@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0840-magic-squares-in-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0840-magic-squares-in-grid) |
 | [0874-walking-robot-simulation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0874-walking-robot-simulation) |
 | [0875-koko-eating-bananas](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0875-koko-eating-bananas) |
+| [0898-bitwise-ors-of-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0898-bitwise-ors-of-subarrays) |
 | [0904-fruit-into-baskets](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0904-fruit-into-baskets) |
 | [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
 | [0940-fruit-into-baskets](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0940-fruit-into-baskets) |
@@ -625,6 +626,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0799-champagne-tower](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0799-champagne-tower) |
+| [0898-bitwise-ors-of-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0898-bitwise-ors-of-subarrays) |
 | [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
@@ -963,6 +965,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0756-pyramid-transition-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0756-pyramid-transition-matrix) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0868-binary-gap](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0868-binary-gap) |
+| [0898-bitwise-ors-of-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0898-bitwise-ors-of-subarrays) |
 | [1009-complement-of-base-10-integer](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1009-complement-of-base-10-integer) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
