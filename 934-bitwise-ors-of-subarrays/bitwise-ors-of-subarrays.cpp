@@ -2,8 +2,7 @@ class Solution {
 public:
 int f(vector<int>&a)
 {
-    unordered_set<int>s;
-    set<int>t;
+    set<int>s,t;
     for(int i:a)
     {
         set<int>x;
