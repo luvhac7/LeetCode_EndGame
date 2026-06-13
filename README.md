@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0518-coin-change-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0540-single-element-in-a-sorted-array) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0646-maximum-length-of-pair-chain](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0646-maximum-length-of-pair-chain) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0493-reverse-pairs) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0704-binary-search) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -414,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0646-maximum-length-of-pair-chain](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0646-maximum-length-of-pair-chain) |
 | [0759-set-intersection-size-at-least-two](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0759-set-intersection-size-at-least-two) |
@@ -489,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0392-is-subsequence) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0567-permutation-in-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0647-palindromic-substrings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0647-palindromic-substrings) |
@@ -528,6 +532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0383-ransom-note) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0567-permutation-in-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0567-permutation-in-string) |
 | [0756-pyramid-transition-matrix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0756-pyramid-transition-matrix) |
 | [0767-reorganize-string](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0767-reorganize-string) |
