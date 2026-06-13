@@ -1,15 +1,19 @@
 class Solution {
 public:
+unordered_map<int,int>mp;
     vector<int> twoSum(vector<int>& a, int t) {
-        unordered_map<int,int>f;
         for(int i=0;i<a.size();i++)
         {
-            int res=t-a[i];
-            if(f.find(res)!=f.end())
+            //x=a[i]-t;->3-2=1->1 is there in hashmap
+            //if yes then select both pair as ans
+            //mp[x],i
+            //mp[x]->
+            int x=t-a[i];
+            if(mp.find(x)!=mp.end())
             {
-                return {f[res],i};
+                return {mp[x],i};
             }
-            f[a[i]]=i;
+            mp[a[i]]=i;
         }
         return {};
     }
