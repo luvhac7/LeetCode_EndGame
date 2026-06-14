@@ -466,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0146-lru-cache) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
@@ -502,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1861-rotating-the-box](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1861-rotating-the-box) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -1019,6 +1021,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1653-minimum-deletions-to-make-string-balanced) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2211-count-collisions-on-a-road](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2211-count-collisions-on-a-road) |
 ## Monotonic Stack
 |  |
