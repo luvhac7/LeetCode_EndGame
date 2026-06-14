@@ -1,17 +1,21 @@
 class Solution {
+static bool cmp(string a,string b)
+{
+    return a+b>b+a;
+}
 public:
     string largestNumber(vector<int>& a) {
-        vector<string>x;
+        vector<string>v;int z=0;
         for(int i:a)
-
-{
-    x.push_back(to_string(i));
-
-}    
-sort(x.begin(),x.end(),[](string &a,string &b){return a+b>b+a;});
-if(x[0]=="0") return "0";
-string y="";
-for(string &i:x) y+=i;
-return y;
+        {
+            if(i==0)z++;
+            v.push_back(to_string(i));
+        }if(z==a.size()) return "0";
+        string ans="";
+        sort(v.begin(),v.end(),cmp);
+        for(string i:v){
+            ans+=i;
+        }
+        return ans;
 }
 };
