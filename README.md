@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0221-maximal-square) |
@@ -314,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0204-count-primes) |
 | [0223-rectangle-area](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0223-rectangle-area) |
 | [0241-different-ways-to-add-parentheses](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0268-missing-number) |
@@ -1047,6 +1049,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0204-count-primes) |
 | [1250-check-if-it-is-a-good-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1250-check-if-it-is-a-good-array) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 ## Rolling Hash
@@ -1083,6 +1086,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0204-count-primes) |
 | [1291-sequential-digits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1291-sequential-digits) |
 | [1925-count-square-sum-triples](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1925-count-square-sum-triples) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
