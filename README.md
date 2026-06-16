@@ -564,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
 | [2384-largest-palindromic-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2384-largest-palindromic-number) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
+| [2423-remove-letter-to-equalize-frequency](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2423-remove-letter-to-equalize-frequency) |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2588-count-the-number-of-beautiful-subarrays) |
 | [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
@@ -690,6 +691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2384-largest-palindromic-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2384-largest-palindromic-number) |
+| [2423-remove-letter-to-equalize-frequency](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2423-remove-letter-to-equalize-frequency) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3713-longest-balanced-substring-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3713-longest-balanced-substring-i) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
@@ -790,6 +792,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2211-count-collisions-on-a-road](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2211-count-collisions-on-a-road) |
 | [2222-number-of-ways-to-select-buildings](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2222-number-of-ways-to-select-buildings) |
 | [2384-largest-palindromic-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2384-largest-palindromic-number) |
+| [2423-remove-letter-to-equalize-frequency](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2423-remove-letter-to-equalize-frequency) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2573-find-the-string-with-lcp](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2573-find-the-string-with-lcp) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2976-minimum-cost-to-convert-string-i) |
