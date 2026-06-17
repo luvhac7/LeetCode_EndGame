@@ -249,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0004-median-of-two-sorted-arrays) |
+| [0069-sqrtx](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0069-sqrtx) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0162-find-peak-element) |
@@ -313,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0067-add-binary) |
+| [0069-sqrtx](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0204-count-primes) |
