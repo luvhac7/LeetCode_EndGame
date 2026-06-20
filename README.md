@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0646-maximum-length-of-pair-chain) |
 | [0704-binary-search](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0704-binary-search) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0717-1-bit-and-2-bit-characters) |
+| [0739-daily-temperatures](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0739-daily-temperatures) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0759-set-intersection-size-at-least-two](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0759-set-intersection-size-at-least-two) |
 | [0840-magic-squares-in-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0840-magic-squares-in-grid) |
@@ -1034,6 +1035,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0143-reorder-list) |
 | [0316-remove-duplicate-letters](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0316-remove-duplicate-letters) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0739-daily-temperatures](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0739-daily-temperatures) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1653-minimum-deletions-to-make-string-balanced) |
@@ -1046,6 +1048,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0085-maximal-rectangle) |
 | [0316-remove-duplicate-letters](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0316-remove-duplicate-letters) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0739-daily-temperatures](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0739-daily-temperatures) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Memoization
 |  |
