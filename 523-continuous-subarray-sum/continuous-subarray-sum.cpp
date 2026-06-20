@@ -1,6 +1,7 @@
 class Solution {
 public:
-    bool checkSubarraySum(vector<int>& a, int k) {
+typedef vector<int> vi; 
+    bool checkSubarraySum(vi& a, int k) {
     //     int n=a.size();
     //    // if((k==1 || k==0) && n>=2) return true;
     //     if(n<2) return false;
@@ -32,28 +33,53 @@ public:
     //     //     }
     //     // }
     //     // return false;
-    int n=a.size();
-    if(n<2) return false;
-    map<int,int>rem;
-    rem[0]=-1;
-    int sum=0,idx=0;
-    for(int i:a)
-    {
-        sum+=i;
-        int r=sum%k;
-        if(r<0)r+=k;
-        if(rem.count(r))
-        {
-            if(idx-rem[r]>=2)
-            {
-                return true;
-            }
-        }
-        else{
-            rem[r]=idx;
-        }
-        idx++;
+//     int n=a.size();
+//     if(n<2) return false;
+//     map<int,int>rem;
+//     rem[0]=-1;
+//     int sum=0,idx=0;
+//     for(int i:a)
+//     {
+//         sum+=i;
+//         int r=sum%k;
+//         if(r<0)r+=k;
+//         if(rem.count(r))
+//         {
+//             if(idx-rem[r]>=2)
+//             {
+//                 return true;
+//             }
+// s
+// 1
+//         else{
+//             rem[r]=idx;
+//         }
+//         idx++;
+//     }
+//     return false;
+return f(a,k);
     }
-    return false;
+    private:
+    bool f(vi &a,int k)
+    {
+        int n=a.size();
+        map<int,int>f;
+        f[0]=-1;
+        int sum=0;
+        for(int i=0;i<n;i++)
+        {
+            sum+=a[i];
+            int rem=sum%k;
+            if(rem<0) rem+=k;
+            if(f.count(rem))
+            {
+                if(i-f[rem]>=2) return true;
+            }
+            else{
+                f[rem]=i;
+            }
+
+        }
+        return false;
     }
 };
