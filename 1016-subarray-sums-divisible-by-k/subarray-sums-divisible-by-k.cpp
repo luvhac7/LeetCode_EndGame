@@ -16,15 +16,26 @@ public:
     //         }
     //     }
     //     return res;
-    vector<int>cnt(k,0);
-    cnt[0]=1;
+    // vector<int>cnt(k,0);
+    // cnt[0]=1;
+    // for(int i:a)
+    // {
+    //     res+=i;
+    //     int rem=((res%k)+k)%k;
+    //     l+=cnt[rem];
+    //     cnt[rem]++;
+    // }
+    // return l;
+    map<int,int>f;
+    f[0]=1;int ans=0,rem=0,cs=0;
     for(int i:a)
     {
-        res+=i;
-        int rem=((res%k)+k)%k;
-        l+=cnt[rem];
-        cnt[rem]++;
+        cs+=i;
+        int rem=cs%k;
+        if(rem<0) rem+=k;
+        ans+=f[rem];
+        f[rem]++;
     }
-    return l;
+    return ans;
     }
 };
