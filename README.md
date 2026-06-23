@@ -593,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3719-longest-balanced-subarray-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3721-longest-balanced-subarray-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
+| [3760-maximum-substrings-with-distinct-start](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3760-maximum-substrings-with-distinct-start) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3804-number-of-centered-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3804-number-of-centered-subarrays) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
@@ -814,6 +815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3606-coupon-code-validator](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3606-coupon-code-validator) |
 | [3713-longest-balanced-substring-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3714-longest-balanced-substring-ii) |
+| [3760-maximum-substrings-with-distinct-start](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3760-maximum-substrings-with-distinct-start) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
 | [3952-maximum-total-value-of-covered-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3952-maximum-total-value-of-covered-indices) |
 ## Simulation
