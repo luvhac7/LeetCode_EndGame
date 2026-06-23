@@ -679,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3651-minimum-cost-path-with-teleportations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3660-jump-game-ix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3660-jump-game-ix) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3661-maximum-walls-destroyed-by-robots) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 | [3952-maximum-total-value-of-covered-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3952-maximum-total-value-of-covered-indices) |
@@ -983,6 +984,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3616-make-array-elements-equal-to-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3714-longest-balanced-substring-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3721-longest-balanced-subarray-ii) |
