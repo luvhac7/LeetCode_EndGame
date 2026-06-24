@@ -1,6 +1,3 @@
-select s.user_id,
-round(avg(case when action='confirmed' then 1 else 0 end),2) as confirmation_rate
-from signups s
-left join confirmations c on c.user_id=s.user_id
-group by s.user_id
-order by confirmation_rate
+select a.user_id,round(ifnull(avg(action='confirmed'),0),2)as confirmation_rate
+from signups as a left join confirmations as b on a.user_id=b.user_id
+group by a.user_id
