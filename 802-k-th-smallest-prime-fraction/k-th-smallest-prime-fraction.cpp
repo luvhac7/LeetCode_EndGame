@@ -9,15 +9,15 @@ static bool cmp(vi &a,vi &b)
     return p<q;
 }
     vector<int> kthSmallestPrimeFraction(vector<int>& a, int k) {
-        vii mp;int n=a.size();
+        vii f;int n=a.size();
         for(int i=n-1;i>=0;i--)
         {
             for(int j=i-1;j>=0;j--)
             {
-                mp.push_back({a[j],a[i]});
+                f.push_back({a[j],a[i]});
             }
         }
-        sort(mp.begin(),mp.end(),cmp);
-        return mp[k-1];
+        sort(f.begin(),f.end(),cmp);
+        return f[k-1];
     }
 };
