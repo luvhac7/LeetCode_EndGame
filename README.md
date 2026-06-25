@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2601-prime-subtraction-operation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2601-prime-subtraction-operation) |
 | [2680-maximum-or](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2680-maximum-or) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [2761-prime-pairs-with-target-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2761-prime-pairs-with-target-sum) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
@@ -352,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2317-maximum-xor-after-operations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2317-maximum-xor-after-operations) |
 | [2601-prime-subtraction-operation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2601-prime-subtraction-operation) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [2761-prime-pairs-with-target-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2761-prime-pairs-with-target-sum) |
 | [2939-maximum-xor-product](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2939-maximum-xor-product) |
 | [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
 | [3025-find-the-number-of-ways-to-place-people-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3025-find-the-number-of-ways-to-place-people-i) |
@@ -1091,6 +1093,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-check-if-it-is-a-good-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1250-check-if-it-is-a-good-array) |
 | [2601-prime-subtraction-operation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2601-prime-subtraction-operation) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [2761-prime-pairs-with-target-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2761-prime-pairs-with-target-sum) |
 | [3115-maximum-prime-difference](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3115-maximum-prime-difference) |
 | [3765-complete-prime-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3765-complete-prime-number) |
 ## Rolling Hash
@@ -1130,6 +1133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0204-count-primes) |
 | [1291-sequential-digits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1291-sequential-digits) |
 | [1925-count-square-sum-triples](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1925-count-square-sum-triples) |
+| [2761-prime-pairs-with-target-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2761-prime-pairs-with-target-sum) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3025-find-the-number-of-ways-to-place-people-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3025-find-the-number-of-ways-to-place-people-i) |
