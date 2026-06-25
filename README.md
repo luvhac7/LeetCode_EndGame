@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3074-apple-redistribution-into-boxes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3093-longest-common-suffix-queries](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3093-longest-common-suffix-queries) |
+| [3115-maximum-prime-difference](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3115-maximum-prime-difference) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
@@ -355,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
 | [3025-find-the-number-of-ways-to-place-people-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3025-find-the-number-of-ways-to-place-people-i) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
+| [3115-maximum-prime-difference](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3115-maximum-prime-difference) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3432-count-partitions-with-even-sum-difference) |
@@ -1089,6 +1091,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-check-if-it-is-a-good-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1250-check-if-it-is-a-good-array) |
 | [2601-prime-subtraction-operation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2601-prime-subtraction-operation) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [3115-maximum-prime-difference](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3115-maximum-prime-difference) |
 | [3765-complete-prime-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3765-complete-prime-number) |
 ## Rolling Hash
 |  |
