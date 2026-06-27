@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2463-minimum-total-distance-traveled](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2463-minimum-total-distance-traveled) |
+| [2521-distinct-prime-factors-of-product-of-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2521-distinct-prime-factors-of-product-of-array) |
 | [2560-house-robber-iv](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2560-house-robber-iv) |
 | [2573-find-the-string-with-lcp](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2573-find-the-string-with-lcp) |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2588-count-the-number-of-beautiful-subarrays) |
@@ -353,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2317-maximum-xor-after-operations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2317-maximum-xor-after-operations) |
+| [2521-distinct-prime-factors-of-product-of-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2521-distinct-prime-factors-of-product-of-array) |
 | [2601-prime-subtraction-operation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2601-prime-subtraction-operation) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2761-prime-pairs-with-target-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2761-prime-pairs-with-target-sum) |
@@ -588,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2384-largest-palindromic-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2384-largest-palindromic-number) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [2423-remove-letter-to-equalize-frequency](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2423-remove-letter-to-equalize-frequency) |
+| [2521-distinct-prime-factors-of-product-of-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2521-distinct-prime-factors-of-product-of-array) |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2588-count-the-number-of-beautiful-subarrays) |
 | [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
@@ -1095,6 +1098,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0204-count-primes) |
 | [1250-check-if-it-is-a-good-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1250-check-if-it-is-a-good-array) |
+| [2521-distinct-prime-factors-of-product-of-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2521-distinct-prime-factors-of-product-of-array) |
 | [2601-prime-subtraction-operation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2601-prime-subtraction-operation) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2761-prime-pairs-with-target-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2761-prime-pairs-with-target-sum) |
