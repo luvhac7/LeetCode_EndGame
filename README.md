@@ -212,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3737-count-subarrays-with-majority-element-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
+| [3770-largest-prime-from-consecutive-prime-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3804-number-of-centered-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3804-number-of-centered-subarrays) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
@@ -378,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3765-complete-prime-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3765-complete-prime-number) |
+| [3770-largest-prime-from-consecutive-prime-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
 ## Greedy
 |  |
@@ -1099,6 +1101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3115-maximum-prime-difference](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3115-maximum-prime-difference) |
 | [3618-split-array-by-prime-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3618-split-array-by-prime-indices) |
 | [3765-complete-prime-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3765-complete-prime-number) |
+| [3770-largest-prime-from-consecutive-prime-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 ## Rolling Hash
 |  |
 | ------- |
