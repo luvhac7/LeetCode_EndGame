@@ -383,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3765-complete-prime-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3765-complete-prime-number) |
 | [3770-largest-prime-from-consecutive-prime-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
+| [3918-sum-of-primes-between-number-and-its-reverse](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3918-sum-of-primes-between-number-and-its-reverse) |
 ## Greedy
 |  |
 | ------- |
@@ -1106,6 +1107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3618-split-array-by-prime-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3618-split-array-by-prime-indices) |
 | [3765-complete-prime-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3765-complete-prime-number) |
 | [3770-largest-prime-from-consecutive-prime-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
+| [3918-sum-of-primes-between-number-and-its-reverse](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3918-sum-of-primes-between-number-and-its-reverse) |
 ## Rolling Hash
 |  |
 | ------- |
