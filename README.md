@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3606-coupon-code-validator](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3606-coupon-code-validator) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3616-make-array-elements-equal-to-zero) |
+| [3618-split-array-by-prime-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3618-split-array-by-prime-indices) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3625-count-number-of-trapezoids-ii) |
@@ -368,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3513-number-of-unique-xor-triplets-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3618-split-array-by-prime-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3618-split-array-by-prime-indices) |
 | [3623-count-number-of-trapezoids-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3676-smallest-number-with-all-set-bits) |
@@ -1095,6 +1097,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2761-prime-pairs-with-target-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2761-prime-pairs-with-target-sum) |
 | [3115-maximum-prime-difference](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3115-maximum-prime-difference) |
+| [3618-split-array-by-prime-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3618-split-array-by-prime-indices) |
 | [3765-complete-prime-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3765-complete-prime-number) |
 ## Rolling Hash
 |  |
