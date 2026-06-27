@@ -1,6 +1,24 @@
 class Solution {
 public:
 typedef long long ll;
+bool f(int n)
+{
+    if(n<2) return false;
+    for(int i=2;i*i<=n;i++) if(n%i==0) return false;
+    return true;
+}
+bool p(set<int>&st,int n)
+{
+    if(n<2)return false;
+    for(int i=2;i<=n;i++)
+    {
+        if(n%i==0 && f(i))
+        {
+            st.insert(i);
+        }
+    }
+    return true;
+}
     int distinctPrimeFactors(vector<int>& a ) {
         // ll p=1;set<int>st;
         // for(int i:a) p*=i;
@@ -29,19 +47,19 @@ typedef long long ll;
     //     for(int i:factors) st.insert(i);
     //     return st.size();
   set<int>st;int n=a.size();
-for(int n:a){  for(int i=2;i*i<=n;i++)
-  {
-    if(n%i==0)
-    {
-        st.insert(i);
-        while(n%i==0)
-        {
-            n/=i;
-    }
-    }
-  }
-  if(n>1) st.insert(n);
-  
-}return st.size();
+// for(int n:a){  for(int i=2;i*i<=n;i++)
+//   {
+//     if(n%i==0)
+//     {
+//         st.insert(i);
+//         while(n%i==0)
+//         {
+//             n/=i;
+//     }
+//     }
+//   }
+//   if(n>1) st.insert(n);
+  for(int i:a) p(st,i);
+return st.size();
     }
 };
