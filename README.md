@@ -356,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2317-maximum-xor-after-operations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2317-maximum-xor-after-operations) |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2521-distinct-prime-factors-of-product-of-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2521-distinct-prime-factors-of-product-of-array) |
 | [2601-prime-subtraction-operation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2601-prime-subtraction-operation) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
@@ -865,6 +866,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [3379-transformed-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3379-transformed-array) |
 | [3433-count-mentions-per-user](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3433-count-mentions-per-user) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -1104,6 +1106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0204-count-primes) |
 | [1250-check-if-it-is-a-good-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1250-check-if-it-is-a-good-array) |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2507-smallest-value-after-replacing-with-sum-of-prime-factors) |
 | [2521-distinct-prime-factors-of-product-of-array](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2521-distinct-prime-factors-of-product-of-array) |
 | [2601-prime-subtraction-operation](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2601-prime-subtraction-operation) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
