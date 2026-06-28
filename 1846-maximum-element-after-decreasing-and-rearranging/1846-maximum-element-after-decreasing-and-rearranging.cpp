@@ -10,6 +10,6 @@ public:
         {
             a[i]=min(a[i-1]+1,a[i]);
         }
-        return a.back();
+        return a[n-1];
     }
 };
