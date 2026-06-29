@@ -157,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2680-maximum-or](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2680-maximum-or) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2761-prime-pairs-with-target-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2761-prime-pairs-with-target-sum) |
+| [2762-continuous-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2762-continuous-subarrays) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2965-find-missing-and-repeated-values](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2965-find-missing-and-repeated-values) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
@@ -752,6 +753,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2398-maximum-number-of-robots-within-budget](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2398-maximum-number-of-robots-within-budget) |
 | [2402-meeting-rooms-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2402-meeting-rooms-iii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
+| [2762-continuous-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2762-continuous-subarrays) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -989,6 +991,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1046-max-consecutive-ones-iii) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/luvhac7/LeetCode_EndGame/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2398-maximum-number-of-robots-within-budget](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2398-maximum-number-of-robots-within-budget) |
+| [2762-continuous-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2762-continuous-subarrays) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -1068,6 +1071,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0493-reverse-pairs) |
+| [2762-continuous-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2762-continuous-subarrays) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
@@ -1137,12 +1141,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
 | [2398-maximum-number-of-robots-within-budget](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2398-maximum-number-of-robots-within-budget) |
+| [2762-continuous-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2762-continuous-subarrays) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0918-maximum-sum-circular-subarray](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0918-maximum-sum-circular-subarray) |
 | [2398-maximum-number-of-robots-within-budget](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2398-maximum-number-of-robots-within-budget) |
+| [2762-continuous-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2762-continuous-subarrays) |
 ## Geometry
 |  |
 | ------- |
