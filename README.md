@@ -221,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
+| [3898-find-the-degree-of-each-vertex](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3898-find-the-degree-of-each-vertex) |
 | [3952-maximum-total-value-of-covered-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3952-maximum-total-value-of-covered-indices) |
 ## Divide and Conquer
 |  |
@@ -966,6 +967,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3548-equal-sum-grid-partition-ii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3651-minimum-cost-path-with-teleportations) |
+| [3898-find-the-degree-of-each-vertex](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Recursion
 |  |
 | ------- |
@@ -1268,6 +1270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2976-minimum-cost-to-convert-string-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+| [3898-find-the-degree-of-each-vertex](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Union-Find
 |  |
 | ------- |
