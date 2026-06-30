@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3898-find-the-degree-of-each-vertex) |
+| [3925-concatenate-array-with-reverse](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3925-concatenate-array-with-reverse) |
 | [3952-maximum-total-value-of-covered-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3952-maximum-total-value-of-covered-indices) |
 ## Divide and Conquer
 |  |
@@ -881,6 +882,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3925-concatenate-array-with-reverse](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3925-concatenate-array-with-reverse) |
 ## Depth-First Search
 |  |
 | ------- |
