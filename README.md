@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3804-number-of-centered-subarrays](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3804-number-of-centered-subarrays) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
+| [3895-count-digit-appearances](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3895-count-digit-appearances) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3898-find-the-degree-of-each-vertex) |
 | [3925-concatenate-array-with-reverse](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3925-concatenate-array-with-reverse) |
@@ -391,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3765-complete-prime-number](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3765-complete-prime-number) |
 | [3770-largest-prime-from-consecutive-prime-sum](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3805-count-caesar-cipher-pairs](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3805-count-caesar-cipher-pairs) |
+| [3895-count-digit-appearances](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3895-count-digit-appearances) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
 | [3918-sum-of-primes-between-number-and-its-reverse](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3918-sum-of-primes-between-number-and-its-reverse) |
 ## Greedy
