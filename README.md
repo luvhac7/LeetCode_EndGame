@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3606-coupon-code-validator](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3606-coupon-code-validator) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3618-split-array-by-prime-indices](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3618-split-array-by-prime-indices) |
+| [3620-network-recovery-pathways](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3620-network-recovery-pathways) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3625-count-number-of-trapezoids-ii) |
@@ -302,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3454-separate-squares-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3454-separate-squares-ii) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3488-closest-equal-element-queries](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3488-closest-equal-element-queries) |
+| [3620-network-recovery-pathways](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3620-network-recovery-pathways) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3661-maximum-walls-destroyed-by-robots) |
@@ -713,6 +715,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3563-lexicographically-smallest-string-after-adjacent-removals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3563-lexicographically-smallest-string-after-adjacent-removals) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
+| [3620-network-recovery-pathways](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3620-network-recovery-pathways) |
 | [3640-trionic-array-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3640-trionic-array-ii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3660-jump-game-ix](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3660-jump-game-ix) |
@@ -764,6 +767,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
+| [3620-network-recovery-pathways](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3620-network-recovery-pathways) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 | [3863-power-grid-maintenance](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3863-power-grid-maintenance) |
 ## Backtracking
@@ -1196,6 +1200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2976-minimum-cost-to-convert-string-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3620-network-recovery-pathways) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Segment Tree
 |  |
@@ -1279,6 +1284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2976-minimum-cost-to-convert-string-i](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/luvhac7/LeetCode_EndGame/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3620-network-recovery-pathways) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Union-Find
@@ -1301,6 +1307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/luvhac7/LeetCode_EndGame/tree/master/0207-course-schedule) |
+| [3620-network-recovery-pathways](https://github.com/luvhac7/LeetCode_EndGame/tree/master/3620-network-recovery-pathways) |
 ## String Matching
 |  |
 | ------- |
