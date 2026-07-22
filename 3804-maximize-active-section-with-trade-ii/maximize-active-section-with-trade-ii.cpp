@@ -1,9 +1,3 @@
-#include <vector>
-#include <string>
-#include <algorithm>
-
-using namespace std;
-
 struct SegTree {
     int n; vector<int> tree;
     SegTree(const vector<int>& a) : n(a.size()), tree(4 * max(1, n), 0) { if(n) build(1, 0, n - 1, a); }
