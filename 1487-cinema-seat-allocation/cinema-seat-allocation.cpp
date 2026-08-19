@@ -1,8 +1,8 @@
 class Solution {
 public:
-    int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
+    int maxNumberOfFamilies(int n, vector<vector<int>>& rs) {
         unordered_map<int, unordered_set<int>> umap;
-        for(auto it: reservedSeats) {
+        for(auto it: rs) {
             umap[it[0]].insert(it[1]);
         }
         int res = (n - umap.size()) * 2;
