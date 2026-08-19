@@ -1,31 +1,20 @@
 class Solution {
 public:
-    static int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
-        const int m=reservedSeats.size();
-        unordered_map<int, uint8_t> seat;
-        seat.reserve(m);
-        for(auto& r: reservedSeats){
-            const int i=r[0]-1, j=r[1]-2;
-            if (j<0 || j>=8) continue;
-            seat[i]|=1<<j;
+    int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
+        unordered_map<int, unordered_set<int>> umap;
+        for(auto it: reservedSeats) {
+            umap[it[0]].insert(it[1]);
         }
-        int sz=seat.size(), cnt=(n-sz)*2;
-        const uint8_t A=15, B=15<<2, C=15<<4, D=A|C;
-        for(auto [_, S]: seat){
-            S=~S;
-            bool has2=(S&D)==D, 
-            has1=(!has2)&& ((S&A)==A||(S&B)==B ||(S&C)==C);
-            cnt+=has2<<1;
-            cnt+=has1;
+        int res = (n - umap.size()) * 2;
+        for(auto row: umap) {
+            bool left = !row.second.contains(2) && !row.second.contains(3) && !row.second.contains(4) && !row.second.contains(5);
+            bool right = !row.second.contains(6) && !row.second.contains(7) && !row.second.contains(8) && !row.second.contains(9);
+            bool centre = !row.second.contains(4) && !row.second.contains(5) && !row.second.contains(6) && !row.second.contains(7);
+            if(left && right)
+            res+=2;
+            else if(left || right || centre)
+            res++;
         }
-        return cnt;
+        return res;
     }
 };
-
-
-auto init = []() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-    return 'c';
-}();
