@@ -1,53 +1,78 @@
 class Solution {
 public:
-    static string lexGreaterPermutation(string& s, string& target) {
-        const int n=s.size();
-        array<int, 26> freq={0}, freq0;
-        unsigned hasC=0, hasC0;
-        for (char c : s) {
-            const int idx=c-'a';
-            if (++freq[idx]==1)
-                hasC|=(1u<<idx);
+    string lexGreaterPermutation(string s, string t) {
+        int n=s.size();
+        sort(s.begin(),s.end());
+        if(s[0]>t[0])return s;
+        if(s[n-1] < t[0])return "";
+        int p=-1;
+        for(int i=0;i<n;++i){
+            string op="";
+            map<char,int>mp;
+            for(auto &j:s)mp[j]++;
+            bool flag=true;
+            for(int j=0;j<i;++j){
+                if(mp.count(t[j]) && mp[t[j]]>0){
+                    op.push_back(t[j]);
+                    mp[t[j]]--;
+                    if(mp[t[j]]==0){
+                        mp.erase(t[j]);
+                    }
+                }else{
+                    flag=false;
+                    break;
+                }
+            }
+            if(!flag){
+                continue;
+            }
+            auto it=mp.upper_bound(t[i]);
+            if(it==mp.end()){
+                flag=false;
+            }else{
+                char c=it->first;
+                int f=it->second;
+                if(f>0){
+                    op.push_back(c);
+                    mp[c]--;
+                    if(mp[c]==0)mp.erase(c);
+                    for(auto &j:mp){
+                        if(j.second > 0){
+                            for(int k=0;k<j.second;++k){
+                                op.push_back(j.first);
+                            }
+                        }
+                    }
+                }else{
+                    flag=false;
+                }
+            }
+            if(!flag){
+                continue;
+            }
+            p=i;
         }
-
-        int diffPos=-1;
-        freq0=freq, hasC0=hasC;
-        for (int i=0; i<n; i++) {
-            int largestC=31-countl_zero(hasC0);
-            int idx=target[i]-'a';
-            if (largestC < idx) break;
-            if (largestC > idx) diffPos=i;
-            if (freq0[idx]>0) {
-                if (--freq0[idx]==0) hasC0 &=~(1u<<idx);
-            } 
-            else break;
+        if(p==-1)return "";
+        string op="";
+        map<char,int>mp;
+        for(auto &j:s)mp[j]++;
+        for(int i=0;i<p;++i){
+            op.push_back(t[i]);
+            mp[t[i]]--;
+            if(mp[t[i]]==0)mp.erase(t[i]);
         }
-    //    cout<<diffPos<<endl;
-        if (diffPos==-1) return "";
-
-        // rebuild s up to diffPos
-        for (int j=0; j<diffPos; j++) {
-            int idx=target[j]-'a';
-            s[j]=target[j];
-            if (--freq[idx]==0) hasC &=~(1u<<idx);
+        auto it=mp.upper_bound(t[p]);
+        char c=it->first;
+        int f=it->second;
+        op.push_back(c);
+        mp[c]--;
+        for(auto &j:mp){
+            if(j.second > 0){
+                for(int k=0;k<j.second;++k){
+                    op.push_back(j.first);
+                }
+            }
         }
-
-        // increase at diffPos
-        int shift=target[diffPos]-'a'+1;
-        unsigned higher=hasC>>shift;
-        if (higher==0) return "";
-        int idx=countr_zero(higher)+shift;
-        s[diffPos]='a'+idx;
-        if (--freq[idx]==0) hasC&=~(1u<<idx); 
-
-        // fill remaining with smallest
-        for (int j=diffPos+1; j<n; j++) {
-            idx=countr_zero(hasC);
-            if (!hasC) return "";
-            s[j]='a'+idx;
-            if (--freq[idx]==0) hasC&=~(1u<<idx);
-        }
-
-        return s;
+        return op;
     }
 };
