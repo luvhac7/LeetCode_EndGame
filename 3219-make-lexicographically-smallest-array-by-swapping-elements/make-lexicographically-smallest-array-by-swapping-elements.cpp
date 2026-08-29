@@ -19,7 +19,6 @@ public:
             return mt(x,++i);
         },{});
         ranges::sort(a);
-        //{is....ie}
         multiset<int> dq[100'001ull]{};
         parent.assign(n,-1);
         int j{g1(a[0])};
