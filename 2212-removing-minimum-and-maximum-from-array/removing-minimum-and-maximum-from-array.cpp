@@ -1,14 +1,8 @@
 class Solution {
-public:
-    int minimumDeletions(vector<int>& nums) {
-        int mx=max_element(nums.begin(),nums.end())-nums.begin();
-        int mn=min_element(nums.begin(),nums.end())-nums.begin();
-        int n=nums.size();
-        int left=min(mx,mn);
-        int right=max(mx,mn);
-        int case1=n-left;
-        int case2=right+1;
-        int case3=left+1+n-right;
-        return min({case1,case2,case3});
-    }
-};
+    public:
+        int minimumDeletions(vector<int>& A) {
+                int a = max_element(begin(A), end(A)) - begin(A), b = min_element(begin(A), end(A)) - begin(A), N = A.size();
+                        if (a > b) swap(a, b);
+                                return min({ a + 1 + N - b, b + 1, N - a });
+                                    }
+                                    };
