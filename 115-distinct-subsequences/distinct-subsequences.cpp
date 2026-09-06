@@ -1,25 +1,17 @@
 class Solution {
 public:
+
+    int f(vector<vector<int>>& dp, string s, string t, int i, int j){
+        if(j == t.size()) return 1;
+        if(i == s.size()) return 0;
+        if(dp[i][j]!=-1) return dp[i][j];
+        if(s[i] == t[j]) return dp[i][j] = f(dp, s,t, i+1, j) + f(dp, s, t, i+1, j+1);
+        return dp[i][j] = f(dp, s, t, i+1, j);
+    }
+
     int numDistinct(string s, string t) {
-        int m = s.length(), n = t.length();
-        if (m < n) {
-            return 0;
-        }
-        vector<vector<unsigned long long>> dp(m + 1, vector<unsigned long long>(n + 1));
-        for (int i = 0; i <= m; i++) {
-            dp[i][n] = 1;
-        }
-        for (int i = m - 1; i >= 0; i--) {
-            char sChar = s.at(i);
-            for (int j = n - 1; j >= 0; j--) {
-                char tChar = t.at(j);
-                if (sChar == tChar) {
-                    dp[i][j] = dp[i + 1][j + 1] + dp[i + 1][j];
-                } else {
-                    dp[i][j] = dp[i + 1][j];
-                }
-            }
-        }
-        return dp[0][0];
+        int n = s.size(), m = t.size();
+        vector<vector<int>> dp(n, vector<int>(m, -1));
+        return f(dp, s, t, 0, 0);
     }
 };
