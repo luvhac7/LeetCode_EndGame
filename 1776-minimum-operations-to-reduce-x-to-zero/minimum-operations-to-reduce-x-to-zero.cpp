@@ -1,15 +1,30 @@
 class Solution {
 public:
     int minOperations(vector<int>& a, int x) {
-        int k=reduce(a.begin(),a.end())-x,n=a.size();
-        if(k<0) return -1;
-        if(k==1) return n;
-        int best=-1,i=0,sum=0;
-        for(int j=0;j<n;j++){
-            sum+=a[j];
-            while(sum>k) sum-=a[i++];
-            if(sum==k) best=max(best,j-i+1);
+        int n = a.size();
+        unordered_map<int,int> mp;
+        int sum = 0;
+        int ans = INT_MIN;
+        int target=0;
+        mp[0]=-1;
+        for(auto xx : a )
+        {
+            target+=xx;
+            
         }
-        return best+1? n-best :-1;
+        target-=x;
+        for(int i = 0;i<a.size();i++)
+        {
+            sum+=a[i];
+            mp[sum]=i;
+            if(mp.find(sum-target)!=mp.end())
+            {
+                ans = max(ans,i-mp[sum-target]);
+            }
+
+        }
+        if(ans==INT_MIN) return -1;
+        return n-ans;
+        
     }
 };
