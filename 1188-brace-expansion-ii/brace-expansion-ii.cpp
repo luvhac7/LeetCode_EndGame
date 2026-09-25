@@ -1,72 +1,59 @@
 class Solution {
 public:
-    set<string> build(const string& s) {
-        set<string> parts;
-        set<string> curr = {""};
+    set<string> solve(string s) {
+        set<string> res;
+        int pos = -1, bal = 0;
 
-        int i = 0;
-
-        while (i < s.size()) {
+        for (int i = 0; i < s.size(); i++) {
             if (s[i] == '{') {
-                int j = i;
-                int depth = 0;
-
-                while (true) {
-                    if (s[j] == '{') {
-                        depth--;
-                    } else if (s[j] == '}') {
-                        depth++;
-                    }
-
-                    if (depth == 0) {
-                        break;
-                    }
-
-                    j++;
-                }
-
-                set<string> options = build(
-                    s.substr(i + 1, j - i - 1)
-                );
-
-                set<string> next;
-
-                for (const string& a : curr) {
-                    for (const string& b : options) {
-                        next.insert(a + b);
-                    }
-                }
-
-                curr = next;
-                i = j + 1;
+                if (bal == 0) pos = i;
+                bal++;
             }
+            else if (s[i] == '}') bal--;
+            else if (s[i] == ',' && bal == 0) {
+                string a = s.substr(0, i);
+                string b = s.substr(i + 1);
 
-            else if (s[i] == ',') {
-                parts.insert(curr.begin(), curr.end());
-                curr = {""};
-                i++;
-            }
-
-            else {
-                set<string> next;
-
-                for (const string& x : curr) {
-                    next.insert(x + s[i]);
-                }
-
-                curr = next;
-                i++;
+                set<string> x = solve(a), y = solve(b);
+                res.insert(x.begin(), x.end());
+                res.insert(y.begin(), y.end());
+                return res;
             }
         }
 
-        parts.insert(curr.begin(), curr.end());
+        if (pos == -1) {
+            res.insert(s);
+            return res;
+        }
 
-        return parts;
+        int end = pos, b = 0;
+        for (int i = pos; i < s.size(); i++) {
+            if (s[i] == '{') b++;
+            if (s[i] == '}') b--;
+            if (b == 0) {
+                end = i;
+                break;
+            }
+        }
+
+        string left = s.substr(0, pos);
+        string mid = s.substr(pos + 1, end - pos - 1);
+        string right = s.substr(end + 1);
+
+        set<string> L = solve(left);
+        set<string> M = solve(mid);
+        set<string> R = solve(right);
+
+        for (string a : L)
+            for (string b : M)
+                for (string c : R)
+                    res.insert(a + b + c);
+
+        return res;
     }
 
     vector<string> braceExpansionII(string expression) {
-        set<string> result = build(expression);
-
-        return vector<string>(result.begin(), result.end());
+        set<string> ans = solve(expression);
+        return vector<string>(ans.begin(), ans.end());
     }
 };
