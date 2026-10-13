@@ -2,26 +2,23 @@ class Solution {
 public:
     long long maxAlternatingSum(vector<int>& nums) {
         int n = nums.size();
+        int k = (n % 2 == 0) ? n/2 : (n-1)/2;
+        priority_queue<int> pq;
+        long long sum = 0;
+        for(int i : nums){
+            pq.push(abs(i));
+            while(pq.size() > k){
+                pq.pop();
+            }
+            sum += 1LL*i*i;
+        }
 
-        // Step 1: square every number (long long, so it cannot overflow)
-        vector<long long> a(n);
-        for (int i = 0; i < n; i++)
-            a[i] = 1LL * nums[i] * nums[i];
+        while(!pq.empty()){
+            int x = pq.top();
+            pq.pop();
+            sum -= 2LL*x*x;
+        }
 
-        // Step 2: sort — smallest on the left, biggest on the right
-        sort(a.begin(), a.end());
-
-        long long ans = 0;
-        int k = n / 2;   // number of minus places
-
-        // Step 3: subtract the k smallest squares
-        for (int i = 0; i < k; i++)
-            ans -= a[i];
-
-        // Step 4: add all the bigger squares
-        for (int i = k; i < n; i++)
-            ans += a[i];
-
-        return ans;
+        return sum;
     }
 };
