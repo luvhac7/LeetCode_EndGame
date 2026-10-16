@@ -1,114 +1,69 @@
-#include <algorithm>
-#include <cstdint>
-#include <vector>
+typedef long long int ll;
+const int MOD = 1e9+7;
 
-using u8 = uint8_t;
-using u16 = uint16_t;
-using u32 = uint32_t;
-using u64 = uint64_t;
-#ifndef LC_LOCAL_BUILD
-auto init = []()
-{
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
-    std::cout.tie(nullptr);
-    return 'c';
-}();
-#endif
-template <u32 max_n>
-class BIT
-{
-    static_assert(max_n <= 100'000);
+struct SegmentTree {    
+    vector<ll> lzy;
+    vector<ll> sum;
+    vector<ll> sqr;
+    int n;
 
-public:
-    explicit BIT(u32 size) : n(size)
-    {
-        std::fill_n(diff, n + 1, u32{0});
-        std::fill_n(weighted_diff, n + 1, u32{0});
+    SegmentTree (int _n) : n(_n) {
+        lzy.resize(4*n, 0);
+        sum.resize(4*n, 0);
+        sqr.resize(4*n, 0);
     }
-
-    [[gnu::no_sanitize_address, gnu::target("bmi")]]
-    void update(u32 l, u32 r)
-    {
-        add(l, u32{1}, -l);
-        add(r + 1, -u32{1}, r + 1);
-        total_sum += r - l + 1;
-    }
-
-    [[gnu::no_sanitize_address, gnu::target("bmi")]]
-    u64 query(u32 l, u32 r) const
-    {
-        return prefix_sum(r + 1) - prefix_sum(l);
-    }
-
-    [[gnu::no_sanitize_address, gnu::target("bmi")]]
-    u64 suffix_sum(u32 l) const
-    {
-        return total_sum - prefix_sum(l);
-    }
-
-private:
-    inline static u32 diff[max_n + 1]{};
-    inline static u32 weighted_diff[max_n + 1]{};
-    u32 n;
-    u64 total_sum = 0;
-
-    [[gnu::no_sanitize_address, gnu::target("bmi")]]
-    void add(u32 index, u32 delta, u32 weighted_delta)
-    {
-        for (++index; index <= n; index += index & -index)
-        {
-            diff[index] += delta;
-            weighted_diff[index] += weighted_delta;
+    
+    void update_lzy(int l, int r, int i) {
+        if (l != r) {
+            lzy[i*2+1] += lzy[i];
+            lzy[i*2+2] += lzy[i];
         }
+        ll gap = r-l+1;
+        ll new_sum = sum[i] + lzy[i]*gap;
+        ll new_sqr = sqr[i] + lzy[i]*sum[i]*2 + lzy[i]*lzy[i]*gap;
+        
+        sum[i] = new_sum % MOD;
+        sqr[i] = new_sqr % MOD;
+        lzy[i] = 0;
     }
-
-    [[gnu::no_sanitize_address, gnu::target("bmi")]]
-    u64 prefix_sum(u32 count) const
-    {
-        u32 sum = 0;
-        u64 weighted_sum = 0;
-        for (u32 index = count; index != 0; index -= index & -index)
-        {
-            sum += diff[index];
-            weighted_sum += weighted_diff[index];
+    
+    void AddOne (int x, int y, int l = 0, int r = -1, int i = 0) {
+        if (r == -1) r += n;
+        update_lzy(l, r, i);
+        
+        if (r < x || l > y) return;
+        if (l >= x && r <= y) {
+            lzy[i] = 1;
+            return update_lzy(l, r, i);
         }
-        return u64{sum} * count + weighted_sum;
-    }
+        
+        int m = (l+r) >> 1;
+        AddOne (x, y, l, m, i*2+1);
+        AddOne (x, y, m+1, r, i*2+2);
+        
+        sum[i] = (sum[i*2+1] + sum[i*2+2]) % MOD;
+        sqr[i] = (sqr[i*2+1] + sqr[i*2+2]) % MOD;
+    }    
 };
 
-class Solution
-{
-    static constexpr u32 max_n = 100'000;
-    static constexpr u32 max_value = 100'000;
-    static constexpr u32 mod = 1'000'000'007;
-    inline static u32 last[max_value + 1]{};
-
+class Solution {
 public:
-    u32 sumCounts(std::vector<int>& input)
-    {
-        auto nums = reinterpret_cast<const u32*>(input.data());
-        u32 n = static_cast<u32>(input.size());
-        BIT<max_n> bit(n);
-        std::fill_n(last, max_value + 1, u32{0});
-
-        return calculate(nums, n, bit);
-    }
-
-private:
-    [[gnu::no_sanitize_address, gnu::target("bmi")]]
-    static u32 calculate(const u32* nums, u32 n, BIT<max_n>& bit)
-    {
-        u64 ans = 0;
-        u64 ending_sum = 0;
-        for (u32 r = 0; r < n; ++r)
-        {
-            u32 l = last[nums[r]];
-            ending_sum += 2 * bit.suffix_sum(l) + r - l + 1;
-            ans += ending_sum;
-            bit.update(l, r);
-            last[nums[r]] = r + 1;
+    int sumCounts(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> last_pos(100001, -1);
+        
+        SegmentTree tree(n);
+        int ans = 0;
+        
+        for (int j = 0; j < n; j ++) {            
+            int st = last_pos[nums[j]] + 1, ed = j;
+            tree.AddOne(st, ed);
+            
+            ans = (ans + tree.sqr[0]) % MOD;
+            
+            last_pos[nums[j]] = j;
         }
-        return ans % mod;
+        return ans;
     }
+    
 };
