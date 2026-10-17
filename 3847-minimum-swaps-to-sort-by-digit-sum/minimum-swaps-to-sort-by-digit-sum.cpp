@@ -1,42 +1,43 @@
-uint64_t A[100000];
-uint8_t viz[100000];
 class Solution {
 public:
-    static inline int digitSum(int x){
-        int sum=0;
-        for(; x>0; x/=10){
-            sum+=x%10;
-        }
-        return sum;
-    }
-    static inline uint64_t pack ( int ds , int x , int i ) {
-        return ((uint64_t)ds<<47ULL)+((uint64_t)x<<17ULL)+i ;
-    }
-    static int minSwaps(vector<int>& nums) {
-        const int n=nums.size();
-        for (int i=0; i<n; i++){
-            int x=nums[i];
-            A[i]=pack(digitSum(x), x, i);
-        }
-        sort(A, A+n);
-        memset(viz, 0, n);
-        int cnt=0, mask=(1<<17)-1;
-        for(int i=0; i<n; i++){
-            if (viz[i] || (A[i]&mask)==i) continue;
-            int cycle=0;
-            for(int j=i; !viz[j]; j=A[j]&mask){
-                cycle++;
-                viz[j]=1;
+    int minSwaps(vector<int>& nums) {
+        int size = nums.size();
+        unordered_map<int, int>map;
+        
+        for(int i=0;i<size;i++){
+            int temp = nums[i];
+            int digitSum = 0;
+            while(temp > 0){
+                int digit = temp%10;
+                digitSum += digit;
+                temp /=10;
             }
-            cnt+=(cycle-1);
+            map[nums[i]] = digitSum;
         }
-        return cnt;
+
+        vector<int>tempVec(nums.begin(), nums.end());
+        sort(tempVec.begin(), tempVec.end(), [&] (int a, int b) {
+            if(map[a] != map[b]) return map[a] < map[b];
+            return a < b;
+        });
+
+        unordered_map<int, int>pos;
+        for(int i=0;i<size;i++){
+            pos[nums[i]] = i;
+        }
+
+        int swaps = 0;
+        for(int i=0;i<size;i++){
+            if(tempVec[i] != nums[i]){
+                int index = pos[tempVec[i]];
+                swap(nums[i], nums[index]);
+
+                pos[nums[i]] = i;
+                pos[nums[index]] = index;
+
+                swaps++;
+            }
+        }
+        return swaps;
     }
 };
-auto init = []()
-{ 
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-    return 'c';
-}();
