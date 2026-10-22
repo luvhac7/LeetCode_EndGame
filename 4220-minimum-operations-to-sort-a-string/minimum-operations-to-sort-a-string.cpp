@@ -1,10 +1,19 @@
 class Solution {
 public:
     int minOperations(string s) {
-        if (is_sorted(s.begin(), s.end())) return 0;  // already sorted
-        if (s.size() == 2) return -1;  // only single letters can be sorted, which changes nothing
-        auto [lo, hi] = minmax_element(s.begin() + 1, s.end() - 1);  // the middle's smallest and largest letters
-        if (s[0] <= min(*lo, s.back()) || max(s[0], *hi) <= s.back()) return 1;  // the first letter is the smallest, or the last the largest
-        return s.back() < *lo && *hi < s[0] ? 3 : 2;  // the middle sits strictly between the last letter and the first
+        string sref=s,s1=s,s2=s;
+        int cnt=0;
+        vector<bool> freq(26,0);
+        for(char c:s){
+            if(!freq[c-'a'])cnt++,freq[c-'a']=1;
+        }
+        sort(sref.begin(),sref.end());
+        if(sref==s)return 0;
+        if(s.length()==2)return -1;
+        sort(s2.begin()+1,s2.end());
+        sort(s1.begin(),s1.end()-1);
+        if(s[0]==sref[0]||s.back()==sref.back())return 1;
+        if(sref[0]==s1[0]||sref.back()==s2.back())return 2;
+        return 3;
     }
 };
