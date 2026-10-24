@@ -1,9 +1,42 @@
 class Solution {
 public:
+    set<string> helper(vector<int> d, string arrive, string leave){
+        int cm = stoi(arrive.substr(0, 2));
+        int cd = stoi(arrive.substr(3, 2));
+        
+        int em = stoi(leave.substr(0, 2));
+        int ed = stoi(leave.substr(3, 2));
+        set<string> st;
+        while(1){
+            if(cm == 13 || cm > em)break;
+            if(cm == em && cd > ed)break;
+            string s = to_string(cm) + "." + to_string(cd);
+            st.insert(s);
+            cd++;
+            if(cd > d[cm - 1]){
+                cd = 1;
+                cm++;
+            }
+        }
+        return st;
+    }
     int countDaysTogether(string arriveAlice, string leaveAlice, string arriveBob, string leaveBob) {
-        int before[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30};
-        partial_sum(begin(before), end(before), begin(before));  // days in the year before each month
-        auto day = [&](const string& mmdd) { return before[stoi(mmdd.substr(0, 2)) - 1] + stoi(mmdd.substr(3)); };  // "MM-DD" -> day of the year, 1..365
-        return max(0, day(min(leaveAlice, leaveBob)) - day(max(arriveAlice, arriveBob)) + 1);  // "MM-DD" strings sort like dates
+        vector<int> d = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        set<string> st = helper(d, arriveAlice, leaveAlice);
+        set<string> st2 = helper(d, arriveBob, leaveBob);
+        // for(auto i : st){
+        //     cout<<i<<" ";
+        // }
+        // cout<<endl;
+        // for(auto i : st2){
+        //     cout<<i<<" ";
+        // }
+        // cout<<endl;
+        int ans = 0;
+        for(auto i : st){
+            if(st2.find(i) != st2.end())ans++; 
+        }
+        return ans;
+
     }
 };
